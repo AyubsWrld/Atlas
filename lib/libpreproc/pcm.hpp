@@ -1,0 +1,86 @@
+/*
+ *  @file pmc.hpp
+ *
+ *  @brief Declares the logic associated with the task of converting a raw binary audio stream into Pulse-Code Modulation Data for processing.
+ *  
+ *  This header defines the interface for the MyClass class, which provides
+ *  functionalities for creating, manipulating, and destroying widget instances.
+ *  It includes methods for adding, removing, and retrieving widgets.
+ *
+ *  @author Ayub Mohamed
+ *
+ *  @date 2025-11-13
+ *
+ */
+
+#pragma once
+
+extern "C"
+{
+#include<libavcodec/avcodec.h>
+#include<libavformat/avformat.h>
+#include<libavutil/avutil.h>
+}
+
+#include <iostream>
+
+
+namespace ATLAS
+{
+
+/*
+    #FIXME:         Extrenous and potentially unsafe use of pointers. ownership is unclear.
+
+    #NOTE:          Currently this routine is a wrapper around 4 subroutines that could fail.
+                    I currently believe that this is fine because should any of these routines
+                    fail the program cannot continue and should exit gracefully. 
+
+    #NOTE:          This routine should itself not exit as there is cleanup that the caller must 
+                    do. 
+    
+    @purpose        Prepares a Decoder and Decoder Context for decompressing the bestfit stream
+                    (The best stream is determined according to various heuristics as the most likely
+                    to be what the user expects.) picked from the AVFormatContext's streams of type 
+                    AVMediaType. The main purpose of this routine is to provide as much context to the
+                    decoding software so that it is equipped for operating on the best fit stream should
+                    it be found. 
+
+    @param:         [in]                  const AVCodec**       Decoder which will prepared for decoding bestfit stream if found based on the streams CodecID.
+
+    @param:         [in]                  AVCodecContext**      DecoderContext which will be prepared for decoding bestfit stream if found based on the streams CodecID.
+
+    @param:         [in]                  AVFormatContext*      Reference to format context which houses the individual streams . 
+
+    @param:         [in]                  AVMediaType           Mediatype to look for the bestfit stream for. 
+
+
+                                    return
+
+    @code:          int                         Index of bestfit stream ( Non-negative value on success ) 
+
+    @code:          int                         Value < 0 on failure. 
+
+
+    @notes:         This is effectively a wrapper around av_find_best_stream ( defined in avformat.h )
+                    and has the side effect of writing to the const AVCodec* should the best fit stream 
+                    be located. 
+
+    @notes:         A successive call to avcodec_find_decoder is superfluous as av_find_best_stream internally
+                    binds a decoder capable of handling the best fit stream in the case that it is found. 
+
+    @notes:         This routine assumes that memory for the decoder context has been allocated prior to invoking.
+                    Will fail early should this not be the case.
+                    
+
+*/
+    [[nodiscard]]
+    int PrepareDecoderForStream(
+                                const AVCodec** codec,
+                                AVFormatContext* format_context,
+                                AVCodecContext* decoder_ctx,
+                                AVMediaType mediatype
+                                );
+
+    int ReadStreamPMC();
+}
+

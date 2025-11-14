@@ -1,0 +1,1 @@
+/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/atlas.dir/link.d CMakeFiles/atlas.dir/src/main.cpp.o -o atlas  -Wl,-rpath,/mnt/e/Atlas/lib lib/libpreproc/liblibpreproc.a /mnt/e/Atlas/lib/libavutil.so /mnt/e/Atlas/lib/libavformat.so /mnt/e/Atlas/lib/libavcodec.so

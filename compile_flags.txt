@@ -1,0 +1,8 @@
+-std=c++23
+-I./include/fprocess/
+-I./include/utility/
+-I./include/spdlog/
+-I./lib/libavcodec/
+-I./lib/libpreproc/
+-I./lib/libavformat/
+-I./lib/libavutil/

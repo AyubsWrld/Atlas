@@ -1,0 +1,6 @@
+/mnt/e/Atlas/build/CMakeFiles/atlas.dir
+/mnt/e/Atlas/build/CMakeFiles/edit_cache.dir
+/mnt/e/Atlas/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/Atlas/build/lib/libpreproc/CMakeFiles/libpreproc.dir
+/mnt/e/Atlas/build/lib/libpreproc/CMakeFiles/edit_cache.dir
+/mnt/e/Atlas/build/lib/libpreproc/CMakeFiles/rebuild_cache.dir

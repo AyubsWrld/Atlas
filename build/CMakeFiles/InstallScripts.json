@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/e/Atlas/build/cmake_install.cmake",
+		"/mnt/e/Atlas/build/lib/libpreproc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
