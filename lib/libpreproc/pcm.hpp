@@ -40,6 +40,10 @@ namespace Atlas
 
     #NOTE:          This routine should itself not exit as there is cleanup that the caller must 
                     do. 
+
+    #NOTE:          Fixed Segfault caused by decoder_ctx being in an invalid state with call 
+                    to avformat_allocate_context3 aftter the codec has been initiliaze. 
+                    
     
     @purpose        Prepares a Decoder and Decoder Context for decompressing the bestfit stream
                     (The best stream is determined according to various heuristics as the most likely
@@ -52,7 +56,8 @@ namespace Atlas
 
     @param:         [in]                  AVFormatContext*      Reference to format context which houses the individual streams . 
 
-    @param:         [in]                  AVCodecContext*       DecoderContext which will be prepared for decoding bestfit stream if found based on the streams CodecID.
+    @param:         [in]                  AVCodecContext**      DecoderContext which will be prepared for decoding bestfit stream if found based on the streams CodecID.
+                                                                Owning Pointer the is altered within the context of this function.
 
     @param:         [in]                  AVMediaType           Mediatype to look for the bestfit stream for. 
 
@@ -80,7 +85,7 @@ namespace Atlas
     int PrepareDecoderForStream(
                                 const AVCodec** codec,
                                 AVFormatContext* format_context,
-                                AVCodecContext* decoder_ctx,
+                                AVCodecContext** decoder_ctx,
                                 AVMediaType mediatype
                                 );
 
