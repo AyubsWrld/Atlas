@@ -4,7 +4,7 @@
 # compile CXX with /usr/sbin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/e/Atlas/lib/libpreproc -I/mnt/e/Atlas/include/spdlog
+CXX_INCLUDES = -I/mnt/e/atlas/lib/libpreproc -I/mnt/e/atlas/include/spdlog
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/e/Atlas/src/main.cpp" "CMakeFiles/atlas.dir/src/main.cpp.o" "gcc" "CMakeFiles/atlas.dir/src/main.cpp.o.d"
+  "/mnt/e/atlas/src/main.cpp" "CMakeFiles/atlas.dir/src/main.cpp.o" "gcc" "CMakeFiles/atlas.dir/src/main.cpp.o.d"
   "" "atlas" "gcc" "CMakeFiles/atlas.dir/link.d"
   )
 

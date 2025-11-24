@@ -1,9 +1,8 @@
 #include "pcm.hpp"
 
 
-namespace ATLAS
+namespace Atlas
 {
-
     [[nodiscard]] 
     int PrepareDecoderForStream(const AVCodec** codec, AVFormatContext* format_context, AVCodecContext* decoder_ctx, AVMediaType mediatype)
     {
@@ -13,7 +12,6 @@ namespace ATLAS
 
         if(decoder_ctx == NULL)
         {
-            //spdlog::error("[Error]: Prior to using this function the context has to be allocated with avcodec_alloc_context3().");
             return return_val; 
         }
 
@@ -29,7 +27,6 @@ namespace ATLAS
 
         if(return_val < 0)
         {
-            //spdlog::error("[Error]: Failed to find best fit stream.");
             return return_val ;
         }
 
@@ -40,19 +37,56 @@ namespace ATLAS
 
         /* Provide Additional context to decoder */ 
 
+        /* Throws segfault here */ 
         if(return_val = avcodec_parameters_to_context(decoder_ctx, best_fit_stream->codecpar) ; return_val < 0)
         {
-            //spdlog::error("[Error]:Failed while attempting to copy best fit stream parameters to decoder context.");
             return return_val;
         }
 
         if(return_val = avcodec_open2(decoder_ctx, *codec, NULL) ; return_val != 0)
         {
-            //spdlog::error("[Error]:Failed to initialize the AVCodecContext to use the given AVCodec.");
             return return_val; 
         }
         return best_stream_index; 
     }
 
-    int ReadStreamPMC() { std::cout << "Hello Wolrd" << std::endl; ; return -1; }
+    void SplitAudioStream() 
+    // void SplitAudioStream(const std::string& filename, char* buffer) 
+    {
+        const AVCodec*      Decoder; 
+        AVFormatContext*    FormatContext  {avformat_alloc_context()}; 
+        AVCodecContext*     DecoderContext {avcodec_alloc_context3(Decoder)};
+        // AVCodecContext*     DecoderContext {avcodec_alloc_context3(Decoder)};
+
+        int ReturnValue{};
+
+        // if(DecoderContext == NULL)
+        // {
+        //     std::cout << "Could Not set DecoderContext";
+        //     return;
+        // }
+        
+        ReturnValue = avformat_open_input(
+                                          &FormatContext,
+                                          "/mnt/e/atlas/examples/ffmpeg/codecs/input.mp4",
+                                          NULL,
+                                          NULL
+                                          );
+        if(ReturnValue != 0)
+        {
+            std::cout << "[" << __FUNCTION__ << "]: Failed call to `avformat_open_input`, got: " << ReturnValue << std::endl;
+        }
+
+        ReturnValue = PrepareDecoderForStream(
+                                              &Decoder,
+                                              FormatContext,
+                                              DecoderContext,
+                                              AVMEDIA_TYPE_AUDIO
+                                              );
+
+        if(ReturnValue > 0)
+        {
+            std::cout << "It worked" << std::endl;
+        }
+    }
 }

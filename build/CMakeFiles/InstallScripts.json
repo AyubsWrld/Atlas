@@ -1,8 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/e/Atlas/build/cmake_install.cmake",
-		"/mnt/e/Atlas/build/lib/libpreproc/cmake_install.cmake"
+		"/mnt/e/atlas/build/cmake_install.cmake",
+		"/mnt/e/atlas/build/lib/libpreproc/cmake_install.cmake",
+		"/mnt/e/atlas/build/external/ftxui/cmake_install.cmake",
+		"/mnt/e/atlas/build/external/ftxui/examples/cmake_install.cmake",
+		"/mnt/e/atlas/build/external/ftxui/doc/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

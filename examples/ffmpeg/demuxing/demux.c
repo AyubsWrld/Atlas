@@ -37,8 +37,8 @@
 #include <libavformat/avformat.h>
 
 
-static AVFormatContext *fmt_ctx = NULL;
-static AVCodecContext *video_dec_ctx = NULL, *audio_dec_ctx;
+static AVFormatContext *fmt_ctx = NULL; 
+static AVCodecContext *video_dec_ctx = NULL, *audio_dec_ctx; // *audio_dec_ctx is left in a nullptr state? 
 static int width, height;
 static enum AVPixelFormat pix_fmt;
 static AVStream *video_stream = NULL, *audio_stream = NULL;
@@ -154,7 +154,10 @@ static int decode_packet(AVCodecContext *dec, const AVPacket *pkt)
 
 /* This poorly written and this single function handles 3+ jobs that can fail */ 
 static int open_codec_context(int *stream_idx,
-                              AVCodecContext **dec_ctx, AVFormatContext *fmt_ctx, enum AVMediaType type)
+                              AVCodecContext **dec_ctx,
+                              AVFormatContext *fmt_ctx,
+                              enum AVMediaType type
+                              )
 {
     int ret, stream_index;
     AVStream *st;
@@ -271,8 +274,8 @@ int main (int argc, char **argv)
             goto end;
         }
 
-        /* allocate image where the decoded image will be put */
         width = video_dec_ctx->width;
+        /* allocate image where the decoded image will be put */
         height = video_dec_ctx->height;
         pix_fmt = video_dec_ctx->pix_fmt;
         ret = av_image_alloc(video_dst_data, video_dst_linesize,

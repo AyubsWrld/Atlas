@@ -23,9 +23,12 @@ extern "C"
 }
 
 #include <iostream>
+#include <utility>
+#include <span>
+#include <expected>
 
 
-namespace ATLAS
+namespace Atlas
 {
 
 /*
@@ -47,9 +50,9 @@ namespace ATLAS
 
     @param:         [in]                  const AVCodec**       Decoder which will prepared for decoding bestfit stream if found based on the streams CodecID.
 
-    @param:         [in]                  AVCodecContext**      DecoderContext which will be prepared for decoding bestfit stream if found based on the streams CodecID.
-
     @param:         [in]                  AVFormatContext*      Reference to format context which houses the individual streams . 
+
+    @param:         [in]                  AVCodecContext*       DecoderContext which will be prepared for decoding bestfit stream if found based on the streams CodecID.
 
     @param:         [in]                  AVMediaType           Mediatype to look for the bestfit stream for. 
 
@@ -68,8 +71,8 @@ namespace ATLAS
     @notes:         A successive call to avcodec_find_decoder is superfluous as av_find_best_stream internally
                     binds a decoder capable of handling the best fit stream in the case that it is found. 
 
-    @notes:         This routine assumes that memory for the decoder context has been allocated prior to invoking.
-                    Will fail early should this not be the case.
+    @notes:         This routine assumes that memory for the decoder context (CodecContext) has been allocated prior 
+                    to invoking. Will fail ( with -1 ) early should this not be the case.
                     
 
 */
@@ -81,6 +84,35 @@ namespace ATLAS
                                 AVMediaType mediatype
                                 );
 
-    int ReadStreamPMC();
+
+/*
+ 
+    @purpose        Opens a file using the name passed in as an argument and writes raw PCM data to a
+                    buffer and returns a pointer to the buffer containing the PCM data.
+                    
+
+    @param:         [in]                  const AVCodec**       Decoder which will prepared for decoding bestfit stream if found based on the streams CodecID.
+
+
+                                    return
+
+    @code:          std::span<uint8_t>          Pointer to underlying buffer used to store the PCM data. 
+
+    @code:          int                         Value < 0 on failure. 
+
+
+    @notes:         This is effectively a wrapper around av_find_best_stream ( defined in avformat.h )
+                    and has the side effect of writing to the const AVCodec* should the best fit stream 
+                    be located. 
+
+    @notes:         A successive call to avcodec_find_decoder is superfluous as av_find_best_stream internally
+                    binds a decoder capable of handling the best fit stream in the case that it is found. 
+
+    @notes:         This routine assumes that memory for the decoder context has been allocated prior to invoking.
+                    Will fail early should this not be the case.
+                    
+
+*/
+    void SplitAudioStream();
 }
 
