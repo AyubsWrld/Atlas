@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/screen/color.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -127,5 +127,5 @@ external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: \
  /usr/include/c++/15.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color_info.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/terminal.hpp
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color_info.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp

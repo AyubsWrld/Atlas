@@ -53,10 +53,10 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/atlas
+CMAKE_SOURCE_DIR = /mnt/e/Atlas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/atlas/build
+CMAKE_BINARY_DIR = /mnt/e/Atlas/build
 
 # Include any dependencies generated for this target.
 include external/ftxui/CMakeFiles/component.dir/depend.make
@@ -73,382 +73,382 @@ external/ftxui/CMakeFiles/component.dir/codegen:
 .PHONY : external/ftxui/CMakeFiles/component.dir/codegen
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/animation.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/animation.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/animation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/animation.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/animation.cpp > CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/animation.cpp > CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/animation.cpp -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/animation.cpp -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/button.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/button.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/button.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/button.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/button.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/button.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/button.cpp > CMakeFiles/component.dir/src/ftxui/component/button.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/button.cpp > CMakeFiles/component.dir/src/ftxui/component/button.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/button.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/button.cpp -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/button.cpp -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/catch_event.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/catch_event.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/catch_event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/catch_event.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/catch_event.cpp > CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/catch_event.cpp > CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/catch_event.cpp -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/catch_event.cpp -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/checkbox.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/checkbox.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/checkbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/checkbox.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/checkbox.cpp > CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/checkbox.cpp > CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/checkbox.cpp -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/checkbox.cpp -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/collapsible.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/collapsible.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/collapsible.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/collapsible.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/collapsible.cpp > CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/collapsible.cpp > CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/collapsible.cpp -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/collapsible.cpp -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/component.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/component.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/component.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/component.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/component.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/component.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/component.cpp > CMakeFiles/component.dir/src/ftxui/component/component.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/component.cpp > CMakeFiles/component.dir/src/ftxui/component/component.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/component.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/component.cpp -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/component.cpp -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/component_options.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/component_options.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/component_options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/component_options.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/component_options.cpp > CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/component_options.cpp > CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/component_options.cpp -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/component_options.cpp -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/container.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/container.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/container.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/container.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/container.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/container.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/container.cpp > CMakeFiles/component.dir/src/ftxui/component/container.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/container.cpp > CMakeFiles/component.dir/src/ftxui/component/container.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/container.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/container.cpp -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/container.cpp -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/dropdown.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/dropdown.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/dropdown.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/dropdown.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/dropdown.cpp > CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/dropdown.cpp > CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/dropdown.cpp -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/dropdown.cpp -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/event.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/event.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/event.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/event.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/event.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/event.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/event.cpp > CMakeFiles/component.dir/src/ftxui/component/event.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/event.cpp > CMakeFiles/component.dir/src/ftxui/component/event.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/event.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/event.cpp -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/event.cpp -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/hoverable.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/hoverable.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/hoverable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/hoverable.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/hoverable.cpp > CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/hoverable.cpp > CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/hoverable.cpp -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/hoverable.cpp -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/input.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/input.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/input.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/input.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/input.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/input.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/input.cpp > CMakeFiles/component.dir/src/ftxui/component/input.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/input.cpp > CMakeFiles/component.dir/src/ftxui/component/input.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/input.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/input.cpp -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/input.cpp -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/loop.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/loop.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/loop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/loop.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/loop.cpp > CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/loop.cpp > CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/loop.cpp -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/loop.cpp -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/maybe.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/maybe.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/maybe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/maybe.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/maybe.cpp > CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/maybe.cpp > CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/maybe.cpp -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/maybe.cpp -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/menu.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/menu.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/menu.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/menu.cpp > CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/menu.cpp > CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/menu.cpp -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/menu.cpp -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/modal.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/modal.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/modal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/modal.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/modal.cpp > CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/modal.cpp > CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/modal.cpp -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/modal.cpp -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/radiobox.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/radiobox.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/radiobox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/radiobox.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/radiobox.cpp > CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/radiobox.cpp > CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/radiobox.cpp -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/radiobox.cpp -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/renderer.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/renderer.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/renderer.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/renderer.cpp > CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/renderer.cpp > CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/renderer.cpp -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/renderer.cpp -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/resizable_split.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/resizable_split.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/resizable_split.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/resizable_split.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/resizable_split.cpp > CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/resizable_split.cpp > CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/resizable_split.cpp -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/resizable_split.cpp -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp > CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp > CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/screen_interactive.cpp -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/slider.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/slider.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/slider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/slider.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/slider.cpp > CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/slider.cpp > CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/slider.cpp -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/slider.cpp -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/task.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/task.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/task.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/task.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/task.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/task.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/task.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/task.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/task.cpp > CMakeFiles/component.dir/src/ftxui/component/task.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/task.cpp > CMakeFiles/component.dir/src/ftxui/component/task.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/task.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/task.cpp -o CMakeFiles/component.dir/src/ftxui/component/task.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/task.cpp -o CMakeFiles/component.dir/src/ftxui/component/task.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.cpp > CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.cpp > CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.cpp -o CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.cpp -o CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/task_runner.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_runner.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/task_runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_runner.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/task_runner.cpp > CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_runner.cpp > CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/task_runner.cpp -o CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_runner.cpp -o CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp > CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp > CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/util.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/util.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/util.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/util.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/util.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/util.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/util.cpp > CMakeFiles/component.dir/src/ftxui/component/util.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/util.cpp > CMakeFiles/component.dir/src/ftxui/component/util.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/util.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/util.cpp -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/util.cpp -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.s
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: external/ftxui/CMakeFiles/component.dir/flags.make
-external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/component/window.cpp
+external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/component/window.cpp
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: external/ftxui/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/window.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/component/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/window.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/component/window.cpp
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/window.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/component/window.cpp > CMakeFiles/component.dir/src/ftxui/component/window.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/component/window.cpp > CMakeFiles/component.dir/src/ftxui/component/window.cpp.i
 
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/window.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/component/window.cpp -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/component/window.cpp -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.s
 
 # Object files for target component
 component_OBJECTS = \
@@ -512,19 +512,19 @@ external/ftxui/libftxui-component.a: external/ftxui/CMakeFiles/component.dir/src
 external/ftxui/libftxui-component.a: external/ftxui/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o
 external/ftxui/libftxui-component.a: external/ftxui/CMakeFiles/component.dir/build.make
 external/ftxui/libftxui-component.a: external/ftxui/CMakeFiles/component.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library libftxui-component.a"
-	cd /mnt/e/atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean_target.cmake
-	cd /mnt/e/atlas/build/external/ftxui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/component.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library libftxui-component.a"
+	cd /mnt/e/Atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean_target.cmake
+	cd /mnt/e/Atlas/build/external/ftxui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/component.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ftxui/CMakeFiles/component.dir/build: external/ftxui/libftxui-component.a
 .PHONY : external/ftxui/CMakeFiles/component.dir/build
 
 external/ftxui/CMakeFiles/component.dir/clean:
-	cd /mnt/e/atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean.cmake
+	cd /mnt/e/Atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean.cmake
 .PHONY : external/ftxui/CMakeFiles/component.dir/clean
 
 external/ftxui/CMakeFiles/component.dir/depend:
-	cd /mnt/e/atlas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/atlas /mnt/e/atlas/external/ftxui /mnt/e/atlas/build /mnt/e/atlas/build/external/ftxui /mnt/e/atlas/build/external/ftxui/CMakeFiles/component.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/e/Atlas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Atlas /mnt/e/Atlas/external/ftxui /mnt/e/Atlas/build /mnt/e/Atlas/build/external/ftxui /mnt/e/Atlas/build/external/ftxui/CMakeFiles/component.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/ftxui/CMakeFiles/component.dir/depend
 

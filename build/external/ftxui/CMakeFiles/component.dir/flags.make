@@ -4,7 +4,7 @@
 # compile CXX with /usr/sbin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/e/atlas/external/ftxui/src -isystem /mnt/e/atlas/external/ftxui/include
+CXX_INCLUDES = -I/mnt/e/Atlas/external/ftxui/src -isystem /mnt/e/Atlas/external/ftxui/include
 
 CXX_FLAGS = -g -fPIC
 

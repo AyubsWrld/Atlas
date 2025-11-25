@@ -1,8 +1,8 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_runner.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_runner.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_runner.hpp \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_internal.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_runner.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_internal.hpp \
  /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
  /usr/include/c++/15.2.1/ratio /usr/include/c++/15.2.1/type_traits \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -92,7 +92,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_runner.cpp.o: \
  /usr/include/c++/15.2.1/bits/exception_ptr.h \
  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/15.2.1/bits/nested_exception.h \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.hpp \
  /usr/include/c++/15.2.1/queue /usr/include/c++/15.2.1/deque \
  /usr/include/c++/15.2.1/bits/stl_deque.h \
  /usr/include/c++/15.2.1/bits/deque.tcc \

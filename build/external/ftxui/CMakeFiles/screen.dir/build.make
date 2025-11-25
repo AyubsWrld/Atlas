@@ -53,10 +53,10 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/atlas
+CMAKE_SOURCE_DIR = /mnt/e/Atlas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/atlas/build
+CMAKE_BINARY_DIR = /mnt/e/Atlas/build
 
 # Include any dependencies generated for this target.
 include external/ftxui/CMakeFiles/screen.dir/depend.make
@@ -73,102 +73,102 @@ external/ftxui/CMakeFiles/screen.dir/codegen:
 .PHONY : external/ftxui/CMakeFiles/screen.dir/codegen
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/box.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/box.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/box.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/box.cpp > CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/box.cpp > CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/box.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/box.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.s
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/color.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/color.cpp > CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color.cpp > CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/color.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.s
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/color_info.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color_info.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/color_info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color_info.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/color_info.cpp > CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color_info.cpp > CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/color_info.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color_info.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.s
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/image.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/image.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/image.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/image.cpp > CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/image.cpp > CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/image.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/image.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.s
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/screen.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/screen.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/screen.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/screen.cpp > CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/screen.cpp > CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/screen.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/screen.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.s
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/string.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/string.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/string.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/string.cpp > CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/string.cpp > CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/string.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/string.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.s
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: external/ftxui/CMakeFiles/screen.dir/flags.make
-external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: /mnt/e/atlas/external/ftxui/src/ftxui/screen/terminal.cpp
+external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/screen/terminal.cpp
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: external/ftxui/CMakeFiles/screen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o -c /mnt/e/atlas/external/ftxui/src/ftxui/screen/terminal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o"
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o -MF CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o.d -o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o -c /mnt/e/Atlas/external/ftxui/src/ftxui/screen/terminal.cpp
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.i"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/atlas/external/ftxui/src/ftxui/screen/terminal.cpp > CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.i
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Atlas/external/ftxui/src/ftxui/screen/terminal.cpp > CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.i
 
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.s"
-	cd /mnt/e/atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/atlas/external/ftxui/src/ftxui/screen/terminal.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.s
+	cd /mnt/e/Atlas/build/external/ftxui && /usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Atlas/external/ftxui/src/ftxui/screen/terminal.cpp -o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.s
 
 # Object files for target screen
 screen_OBJECTS = \
@@ -192,19 +192,19 @@ external/ftxui/libftxui-screen.a: external/ftxui/CMakeFiles/screen.dir/src/ftxui
 external/ftxui/libftxui-screen.a: external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o
 external/ftxui/libftxui-screen.a: external/ftxui/CMakeFiles/screen.dir/build.make
 external/ftxui/libftxui-screen.a: external/ftxui/CMakeFiles/screen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libftxui-screen.a"
-	cd /mnt/e/atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/screen.dir/cmake_clean_target.cmake
-	cd /mnt/e/atlas/build/external/ftxui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/screen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/Atlas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libftxui-screen.a"
+	cd /mnt/e/Atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/screen.dir/cmake_clean_target.cmake
+	cd /mnt/e/Atlas/build/external/ftxui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/screen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ftxui/CMakeFiles/screen.dir/build: external/ftxui/libftxui-screen.a
 .PHONY : external/ftxui/CMakeFiles/screen.dir/build
 
 external/ftxui/CMakeFiles/screen.dir/clean:
-	cd /mnt/e/atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/screen.dir/cmake_clean.cmake
+	cd /mnt/e/Atlas/build/external/ftxui && $(CMAKE_COMMAND) -P CMakeFiles/screen.dir/cmake_clean.cmake
 .PHONY : external/ftxui/CMakeFiles/screen.dir/clean
 
 external/ftxui/CMakeFiles/screen.dir/depend:
-	cd /mnt/e/atlas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/atlas /mnt/e/atlas/external/ftxui /mnt/e/atlas/build /mnt/e/atlas/build/external/ftxui /mnt/e/atlas/build/external/ftxui/CMakeFiles/screen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/e/Atlas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Atlas /mnt/e/Atlas/external/ftxui /mnt/e/Atlas/build /mnt/e/Atlas/build/external/ftxui /mnt/e/Atlas/build/external/ftxui/CMakeFiles/screen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/ftxui/CMakeFiles/screen.dir/depend
 

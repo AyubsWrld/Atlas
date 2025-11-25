@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_queue.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_queue.hpp \
  /usr/include/c++/15.2.1/queue \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -66,7 +66,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task_queue.cpp.o: \
  /usr/include/c++/15.2.1/bits/monostate.h \
  /usr/include/c++/15.2.1/bits/parse_numbers.h \
  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_internal.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_internal.hpp \
  /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
  /usr/include/c++/15.2.1/ratio /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \

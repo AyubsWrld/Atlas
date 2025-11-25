@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/terminal_input_parser.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/terminal_input_parser.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/terminal_input_parser.hpp \
  /usr/include/c++/15.2.1/functional \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -120,7 +120,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parse
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/15.2.1/bits/charconv.h \
  /usr/include/c++/15.2.1/bits/basic_string.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/mouse.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/mouse.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
@@ -167,7 +167,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parse
  /usr/include/c++/15.2.1/pstl/execution_defs.h \
  /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/event.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/task.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/event.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/task.hpp \
  /usr/include/c++/15.2.1/variant /usr/include/c++/15.2.1/bits/monostate.h \
  /usr/include/c++/15.2.1/bits/parse_numbers.h

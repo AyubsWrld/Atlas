@@ -9,9 +9,9 @@ atlas: \
   lib/libpreproc/liblibpreproc.a \
   external/ftxui/libftxui-dom.a \
   external/ftxui/libftxui-screen.a \
-  /mnt/e/atlas/lib/libavutil.so \
-  /mnt/e/atlas/lib/libavformat.so \
-  /mnt/e/atlas/lib/libavcodec.so \
+  /mnt/e/Atlas/lib/libavutil.so \
+  /mnt/e/Atlas/lib/libavformat.so \
+  /mnt/e/Atlas/lib/libavcodec.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
@@ -43,7 +43,7 @@ atlas: \
   /usr/lib/ld-linux-x86-64.so.2 \
   /usr/lib/libmvec.so.1 \
   /usr/lib/librt.so.1 \
-  /mnt/e/atlas/lib/libswresample.so.6
+  /mnt/e/Atlas/lib/libswresample.so.6
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o:
 
@@ -65,11 +65,11 @@ external/ftxui/libftxui-dom.a:
 
 external/ftxui/libftxui-screen.a:
 
-/mnt/e/atlas/lib/libavutil.so:
+/mnt/e/Atlas/lib/libavutil.so:
 
-/mnt/e/atlas/lib/libavformat.so:
+/mnt/e/Atlas/lib/libavformat.so:
 
-/mnt/e/atlas/lib/libavcodec.so:
+/mnt/e/Atlas/lib/libavcodec.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
 
@@ -133,4 +133,4 @@ external/ftxui/libftxui-screen.a:
 
 /usr/lib/librt.so.1:
 
-/mnt/e/atlas/lib/libswresample.so.6:
+/mnt/e/Atlas/lib/libswresample.so.6:

@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/animation.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/animation.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/cmath \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -73,7 +73,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: \
  /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
  /usr/include/c++/15.2.1/initializer_list \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/animation.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/animation.hpp \
  /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
  /usr/include/c++/15.2.1/ratio /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \

@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/dom/linear_gradient.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/dom/linear_gradient.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algobase.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -82,7 +82,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: \
  /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc \
  /usr/include/c++/15.2.1/cstddef \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/linear_gradient.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/linear_gradient.hpp \
  /usr/include/c++/15.2.1/optional /usr/include/c++/15.2.1/exception \
  /usr/include/c++/15.2.1/bits/exception_ptr.h \
  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
@@ -110,7 +110,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
@@ -178,7 +178,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: \
  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/elements.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/elements.hpp \
  /usr/include/c++/15.2.1/functional \
  /usr/include/c++/15.2.1/bits/std_function.h \
  /usr/include/c++/15.2.1/unordered_map \
@@ -188,17 +188,17 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: \
  /usr/include/c++/15.2.1/bits/node_handle.h \
  /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/array \
  /usr/include/c++/15.2.1/compare \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/image.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/box.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/direction.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/node.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/screen.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/selection.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/direction.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/node.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/screen.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/selection.hpp \
  /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/istream \
  /usr/include/c++/15.2.1/ios /usr/include/c++/15.2.1/bits/ios_base.h \
  /usr/include/c++/15.2.1/bits/locale_classes.h \
@@ -220,14 +220,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: \
  /usr/include/c++/15.2.1/bits/ostream.tcc \
  /usr/include/c++/15.2.1/bits/istream.tcc \
  /usr/include/c++/15.2.1/bits/sstream.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/util/ref.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/string.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/util/ref.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/string.hpp \
  /usr/include/c++/15.2.1/variant /usr/include/c++/15.2.1/bits/monostate.h \
  /usr/include/c++/15.2.1/bits/parse_numbers.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/take_any_args.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/take_any_args.hpp \
  /usr/include/c++/15.2.1/deque /usr/include/c++/15.2.1/bits/stl_deque.h \
  /usr/include/c++/15.2.1/bits/deque.tcc /usr/include/c++/15.2.1/queue \
  /usr/include/c++/15.2.1/bits/stl_queue.h /usr/include/c++/15.2.1/stack \
  /usr/include/c++/15.2.1/bits/stl_stack.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/deprecated.hpp \
- /mnt/e/atlas/external/ftxui/src/ftxui/dom/node_decorator.hpp
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/deprecated.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/dom/node_decorator.hpp

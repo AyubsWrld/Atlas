@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/catch_event.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/catch_event.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/functional \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -67,7 +67,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: \
  /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/array \
  /usr/include/c++/15.2.1/compare /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/component.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/component.hpp \
  /usr/include/c++/15.2.1/memory \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
@@ -126,11 +126,11 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: \
  /usr/include/c++/15.2.1/backward/auto_ptr.h \
  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/15.2.1/pstl/execution_defs.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/util/warn_windows_macro.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/component_base.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/captured_mouse.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/elements.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/util/warn_windows_macro.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/component_base.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/captured_mouse.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/elements.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
  /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/char_traits.h \
  /usr/include/c++/15.2.1/bits/localefwd.h \
@@ -162,23 +162,23 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/15.2.1/bits/charconv.h \
  /usr/include/c++/15.2.1/bits/basic_string.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/image.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/box.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/direction.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/linear_gradient.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/direction.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/linear_gradient.hpp \
  /usr/include/c++/15.2.1/optional \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/node.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/screen.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/selection.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/node.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/screen.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/selection.hpp \
  /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/istream \
  /usr/include/c++/15.2.1/ios /usr/include/c++/15.2.1/bits/ios_base.h \
  /usr/include/c++/15.2.1/bits/locale_classes.h \
@@ -200,21 +200,21 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: \
  /usr/include/c++/15.2.1/bits/ostream.tcc \
  /usr/include/c++/15.2.1/bits/istream.tcc \
  /usr/include/c++/15.2.1/bits/sstream.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/util/ref.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/string.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/util/ref.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/string.hpp \
  /usr/include/c++/15.2.1/variant /usr/include/c++/15.2.1/bits/monostate.h \
  /usr/include/c++/15.2.1/bits/parse_numbers.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/take_any_args.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/take_any_args.hpp \
  /usr/include/c++/15.2.1/deque /usr/include/c++/15.2.1/bits/stl_deque.h \
  /usr/include/c++/15.2.1/bits/deque.tcc /usr/include/c++/15.2.1/queue \
  /usr/include/c++/15.2.1/bits/stl_heap.h \
  /usr/include/c++/15.2.1/bits/stl_queue.h /usr/include/c++/15.2.1/stack \
  /usr/include/c++/15.2.1/bits/stl_stack.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/deprecated.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/component_options.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/deprecated.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/component_options.hpp \
  /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
  /usr/include/c++/15.2.1/ratio /usr/include/c++/15.2.1/limits \
  /usr/include/c++/15.2.1/ctime \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/animation.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/event.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/mouse.hpp
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/animation.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/event.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/mouse.hpp

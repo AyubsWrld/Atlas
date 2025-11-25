@@ -3,6 +3,7 @@
 
 namespace Atlas
 {
+
     [[nodiscard]] 
     int PrepareDecoderForStream(const AVCodec** codec, AVFormatContext* format_context, AVCodecContext** decoder_ctx, AVMediaType mediatype)
     {
@@ -86,6 +87,7 @@ namespace Atlas
             std::cout << "[" << __FUNCTION__ << "]: Failed call to `avformat_open_input`, got: " << ReturnValue << std::endl;
         }
 
+        /* This is the prepares best fit stream & and deocder for handling the best fit stream */ 
         ReturnValue = PrepareDecoderForStream(
                                               &Decoder,
                                               FormatContext,
@@ -93,9 +95,45 @@ namespace Atlas
                                               AVMEDIA_TYPE_AUDIO
                                               );
 
-        if(ReturnValue > 0)
+        if(ReturnValue >= VALID_STREAM_INDEX)
         {
             std::cout << "It worked" << std::endl;
+            ReadAudioStream(FormatContext, DecoderContext, ReturnValue);
         }
+
     }
+
+    constexpr std::size_t GetAudioFileSize(const AVFormatContext* fmt) noexcept
+    {
+        /* Check whether there is enough information to derive this */ 
+        return fmt->bit_rate / 1024;
+    }
+
+    /* Perhaps inline all of this into a single routine */ 
+    void ReadAudioStream(AVFormatContext* format_ctx, AVCodecContext* decoder_ctx, int best_stream_index)
+    {
+        /* Assertions that must hold */ 
+        /* These could be runtime failures exit prematurely */ 
+        // assert(best_stream_index < VALID_STREAM_INDEX && std::format("Ill-formed (negative) stream_index received: {}\n", best_stream_index));
+        // assert(best_stream_index < format_ctx->nb_streams && std::format("Ill-formed stream_index received: {}\n, greater than available streams within format", best_stream_index));
+
+        AVPacket* Packet { av_packet_alloc() };
+        AVFrame*  Frame  { av_frame_alloc() };
+        AVStream* BestStream = format_ctx->streams[best_stream_index];
+
+        // assert(  (!Packet || !Frame) && std::format("Failed to allocate Frame({})/Packet({})", Frame, Packet));
+
+        av_dump_format(
+                       format_ctx,
+                       best_stream_index,
+                       "log.txt",
+                       0
+                       );
+
+        std::cout << GetAudioFileSize(format_ctx) << std::endl; 
+        std::cout << GetAudioFileSize(format_ctx) * format_ctx->duration << std::endl; 
+        std::cout << format_ctx->duration / AV_TIME_BASE << std::endl;
+
+    }
+
 }

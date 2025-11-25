@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/screen/color_info.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/screen/color_info.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color_info.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color_info.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -17,7 +17,7 @@ external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp \
  /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/bits/stringfwd.h \

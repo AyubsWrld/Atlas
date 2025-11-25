@@ -24,4 +24,6 @@ libpreproc
     ${CMAKE_SOURCE_DIR}/include/spdlog/
 )
 
+set(libpreproc CMAKE_CXX_STANDARD 23) 
+
 message("Libpreproc added")

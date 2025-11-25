@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/screen/screen.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/screen/screen.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/cstddef \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -154,16 +154,16 @@ external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: \
  /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/sstream \
  /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/image.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp \
  /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
  /usr/include/c++/15.2.1/bits/vector.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/box.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/screen.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/screen.hpp \
  /usr/include/c++/15.2.1/functional \
  /usr/include/c++/15.2.1/bits/std_function.h \
  /usr/include/c++/15.2.1/unordered_map \
@@ -172,5 +172,5 @@ external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o: \
  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
  /usr/include/c++/15.2.1/bits/enable_special_members.h \
  /usr/include/c++/15.2.1/array /usr/include/c++/15.2.1/compare \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/string.hpp
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/string.hpp

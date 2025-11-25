@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/task.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/task_internal.hpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/task_internal.hpp \
  /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
  /usr/include/c++/15.2.1/ratio /usr/include/c++/15.2.1/type_traits \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

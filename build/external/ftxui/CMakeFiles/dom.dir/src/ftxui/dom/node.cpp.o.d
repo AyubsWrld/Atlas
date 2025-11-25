@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/dom/node.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/dom/node.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/box.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp \
  /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -106,7 +106,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/node.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/node.hpp \
  /usr/include/c++/15.2.1/memory \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
@@ -150,8 +150,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
  /usr/include/c++/15.2.1/vector /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
  /usr/include/c++/15.2.1/bits/vector.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/screen.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/screen.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
@@ -165,11 +165,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: \
  /usr/include/c++/15.2.1/bits/node_handle.h \
  /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/array \
  /usr/include/c++/15.2.1/compare \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/image.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/dom/selection.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/dom/selection.hpp \
  /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/istream \
  /usr/include/c++/15.2.1/ios /usr/include/c++/15.2.1/bits/ios_base.h \
  /usr/include/c++/15.2.1/bits/locale_classes.h \

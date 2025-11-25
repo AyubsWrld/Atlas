@@ -51,7 +51,7 @@ add_library(ftxui::screen STATIC IMPORTED)
 
 set_target_properties(ftxui::screen PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/mnt/e/atlas/external/ftxui/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/e/Atlas/external/ftxui/include"
 )
 
 # Create imported target ftxui::dom
@@ -59,7 +59,7 @@ add_library(ftxui::dom STATIC IMPORTED)
 
 set_target_properties(ftxui::dom PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/mnt/e/atlas/external/ftxui/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/e/Atlas/external/ftxui/include"
   INTERFACE_LINK_LIBRARIES "ftxui::screen"
 )
 
@@ -68,7 +68,7 @@ add_library(ftxui::component STATIC IMPORTED)
 
 set_target_properties(ftxui::component PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/mnt/e/atlas/external/ftxui/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/e/Atlas/external/ftxui/include"
   INTERFACE_LINK_LIBRARIES "ftxui::dom"
 )
 
@@ -76,21 +76,21 @@ set_target_properties(ftxui::component PROPERTIES
 set_property(TARGET ftxui::screen APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(ftxui::screen PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/mnt/e/atlas/build/external/ftxui/libftxui-screen.a"
+  IMPORTED_LOCATION_DEBUG "/mnt/e/Atlas/build/external/ftxui/libftxui-screen.a"
   )
 
 # Import target "ftxui::dom" for configuration "Debug"
 set_property(TARGET ftxui::dom APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(ftxui::dom PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/mnt/e/atlas/build/external/ftxui/libftxui-dom.a"
+  IMPORTED_LOCATION_DEBUG "/mnt/e/Atlas/build/external/ftxui/libftxui-dom.a"
   )
 
 # Import target "ftxui::component" for configuration "Debug"
 set_property(TARGET ftxui::component APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(ftxui::component PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/mnt/e/atlas/build/external/ftxui/libftxui-component.a"
+  IMPORTED_LOCATION_DEBUG "/mnt/e/Atlas/build/external/ftxui/libftxui-component.a"
   )
 
 # This file does not depend on other imported targets which have

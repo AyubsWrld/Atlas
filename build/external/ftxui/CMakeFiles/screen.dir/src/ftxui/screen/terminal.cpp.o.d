@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/screen/terminal.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/screen/terminal.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/cstdlib \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -103,7 +103,7 @@ external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp \
  /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
  /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
  /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \

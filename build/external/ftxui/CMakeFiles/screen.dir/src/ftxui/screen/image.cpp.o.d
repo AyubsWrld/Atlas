@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/screen/image.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/screen/image.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/sstream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -150,11 +150,11 @@ external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/image.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
  /usr/include/c++/15.2.1/bits/vector.tcc \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/image.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/box.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/pixel.hpp \
  /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/color.hpp
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/color.hpp

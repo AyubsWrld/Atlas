@@ -1,7 +1,7 @@
 external/ftxui/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/screen/box.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/screen/box.cpp \
  /usr/include/stdc-predef.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/box.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp \
  /usr/include/c++/15.2.1/algorithm \
  /usr/include/c++/15.2.1/bits/stl_algobase.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

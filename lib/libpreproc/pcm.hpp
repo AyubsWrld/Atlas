@@ -26,10 +26,15 @@ extern "C"
 #include <utility>
 #include <span>
 #include <expected>
+#include <format>
+#include <cassert>
 
 
 namespace Atlas
 {
+
+    /* Unnamed enumerator for readability */ 
+    enum : uint8_t { VALID_STREAM_INDEX = 0 }; 
 
 /*
     #FIXME:         Extrenous and potentially unsafe use of pointers. ownership is unclear.
@@ -118,6 +123,38 @@ namespace Atlas
                     
 
 */
+
     void SplitAudioStream();
+
+/*
+    @purpose        Opens a file using the name passed in as an argument and writes raw PCM data to a
+                    buffer and returns a pointer to the buffer containing the PCM data.
+                    
+
+    @param:         [in]                  const AVCodec**       Decoder which will prepared for decoding bestfit stream if found based on the streams CodecID.
+
+
+                                    return
+
+    @code:          std::span<uint8_t>          Pointer to underlying buffer used to store the PCM data. 
+
+    @code:          int                         Value < 0 on failure. 
+
+
+    @notes:         This is effectively a wrapper around av_find_best_stream ( defined in avformat.h )
+                    and has the side effect of writing to the const AVCodec* should the best fit stream 
+                    be located. 
+
+    @notes:         A successive call to avcodec_find_decoder is superfluous as av_find_best_stream internally
+                    binds a decoder capable of handling the best fit stream in the case that it is found. 
+
+    @notes:         This routine assumes that memory for the decoder context has been allocated prior to invoking.
+                    Will fail early should this not be the case.
+                    
+
+*/
+    void ReadAudioStream(AVFormatContext* format_ctx, AVCodecContext* decoder_ctx, int best_stream_index);
+
+    constexpr std::size_t GetAudioFileSize(const AVFormatContext* codec) noexcept;
 }
 

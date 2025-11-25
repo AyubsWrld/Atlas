@@ -1,5 +1,5 @@
 external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
- /mnt/e/atlas/external/ftxui/src/ftxui/component/event.cpp \
+ /mnt/e/Atlas/external/ftxui/src/ftxui/component/event.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15.2.1/map \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -111,9 +111,9 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
  /usr/include/c++/15.2.1/bits/basic_string.tcc \
  /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/event.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/component/mouse.hpp \
- /mnt/e/atlas/external/ftxui/include/ftxui/screen/string.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/event.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/component/mouse.hpp \
+ /mnt/e/Atlas/external/ftxui/include/ftxui/screen/string.hpp \
  /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
