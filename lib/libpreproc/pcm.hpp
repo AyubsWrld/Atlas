@@ -155,6 +155,6 @@ namespace Atlas
 */
     void ReadAudioStream(AVFormatContext* format_ctx, AVCodecContext* decoder_ctx, int best_stream_index);
 
-    constexpr std::size_t GetAudioFileSize(const AVFormatContext* codec) noexcept;
+    constexpr std::size_t GetAudioFileSize(const AVFormatContext& codec) noexcept;
 }
 

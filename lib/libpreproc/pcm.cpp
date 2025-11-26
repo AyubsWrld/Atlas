@@ -103,10 +103,16 @@ namespace Atlas
 
     }
 
-    constexpr std::size_t GetAudioFileSize(const AVFormatContext* fmt) noexcept
+    constexpr std::size_t GetAudioFileSize(const AVFormatContext& fmt) noexcept
     {
         /* Check whether there is enough information to derive this */ 
-        return fmt->bit_rate / 1024;
+        return ((fmt.bit_rate / 1024 ) * fmt.duration) ;
+    }
+
+    __attribute__((pure)) constexpr std::size_t GetAudioFileSize(const AVFormatContext* fmt) noexcept
+    {
+        /* Check whether there is enough information to derive this */ 
+        return ((fmt->bit_rate / 1024 ) * fmt->duration) ;
     }
 
     /* Perhaps inline all of this into a single routine */ 
@@ -128,12 +134,4 @@ namespace Atlas
                        best_stream_index,
                        "log.txt",
                        0
-                       );
-
-        std::cout << GetAudioFileSize(format_ctx) << std::endl; 
-        std::cout << GetAudioFileSize(format_ctx) * format_ctx->duration << std::endl; 
-        std::cout << format_ctx->duration / AV_TIME_BASE << std::endl;
-
-    }
-
-}
+               
