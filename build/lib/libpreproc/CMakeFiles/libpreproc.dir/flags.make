@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/mnt/e/Atlas/lib/libpreproc -I/mnt/e/Atlas/include/spdlog
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=c++23
 

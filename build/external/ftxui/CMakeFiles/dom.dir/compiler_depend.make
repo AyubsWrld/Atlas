@@ -33,17 +33,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -57,6 +67,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -89,37 +100,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -128,26 +147,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -156,6 +188,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -173,10 +207,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -186,6 +224,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -193,6 +233,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -206,19 +247,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -243,7 +291,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -251,7 +301,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -266,13 +320,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o: /mnt/e/Atlas/ex
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/blink.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -306,17 +365,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -330,6 +399,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -362,37 +432,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -401,26 +479,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -429,6 +520,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -446,10 +539,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -459,6 +556,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -466,6 +565,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -479,19 +579,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -516,7 +623,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -524,7 +633,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -539,13 +652,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/bold.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -579,17 +697,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -603,6 +731,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -635,37 +764,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -674,26 +811,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -702,6 +852,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -719,10 +871,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -732,6 +888,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -739,6 +897,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -752,19 +911,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -789,7 +955,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -797,7 +965,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -812,13 +984,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/border.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -851,17 +1028,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -875,6 +1062,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -907,11 +1095,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -924,22 +1115,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -948,26 +1143,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -976,6 +1185,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -994,10 +1204,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -1008,6 +1221,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -1015,6 +1230,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -1028,13 +1244,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -1042,6 +1263,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -1066,7 +1289,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1074,7 +1299,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -1089,13 +1318,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o: /mnt/e/Atlas/exter
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/box_helper.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/requirement.hpp \
@@ -1174,20 +1408,28 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
+  /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
   /usr/include/c++/15.2.1/bits/hashtable.h \
   /usr/include/c++/15.2.1/bits/hashtable_policy.h \
   /usr/include/c++/15.2.1/bits/invoke.h \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
+  /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
@@ -1195,6 +1437,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/std_abs.h \
@@ -1233,6 +1480,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/ext/aligned_buffer.h \
   /usr/include/c++/15.2.1/ext/alloc_traits.h \
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
@@ -1242,6 +1490,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
+  /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
@@ -1309,20 +1559,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
@@ -1330,6 +1587,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -1343,6 +1603,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -1375,11 +1636,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -1392,22 +1656,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -1416,26 +1684,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -1445,6 +1727,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -1466,10 +1749,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/stl_tree.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -1480,6 +1766,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/cmath \
   /usr/include/c++/15.2.1/compare \
@@ -1488,6 +1776,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -1501,15 +1790,19 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
   /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/map \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -1517,6 +1810,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -1553,7 +1848,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1561,7 +1858,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -1577,13 +1878,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o: /mnt/e/Atlas/exter
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/clear_under.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -1617,17 +1923,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -1641,6 +1957,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -1673,37 +1990,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -1712,26 +2037,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -1740,6 +2078,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -1757,10 +2097,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -1770,6 +2114,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -1777,6 +2123,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -1790,19 +2137,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -1827,7 +2181,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -1835,7 +2191,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -1850,13 +2210,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o: /mnt/e/Atlas/
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/color.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -1890,17 +2255,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -1914,6 +2289,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -1946,37 +2322,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -1985,26 +2369,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -2013,6 +2410,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -2030,10 +2429,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -2043,6 +2446,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -2050,6 +2455,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -2063,19 +2469,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -2100,7 +2513,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2108,7 +2523,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -2123,13 +2542,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/composite_decorator.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -2162,17 +2586,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -2186,6 +2620,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -2218,37 +2653,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -2257,26 +2700,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -2285,6 +2741,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -2302,10 +2760,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -2315,6 +2777,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -2322,6 +2786,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -2335,19 +2800,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -2372,7 +2844,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2380,7 +2854,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -2395,13 +2873,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o: /mnt/
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/dbox.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -2434,17 +2917,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -2458,6 +2951,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -2490,11 +2984,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -2507,22 +3004,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -2531,26 +3032,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -2559,6 +3074,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -2577,10 +3093,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -2591,6 +3110,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -2598,6 +3119,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -2611,13 +3133,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -2625,6 +3152,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -2649,7 +3178,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2657,7 +3188,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -2672,13 +3207,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/dim.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -2712,17 +3252,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -2736,6 +3286,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -2768,37 +3319,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -2807,26 +3366,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -2835,6 +3407,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -2852,10 +3426,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -2865,6 +3443,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -2872,6 +3452,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -2885,19 +3466,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -2922,7 +3510,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -2930,7 +3520,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -2945,13 +3539,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o: /mnt/e/Atlas/external
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/flex.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -2984,17 +3583,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -3008,6 +3617,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -3040,37 +3650,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -3079,26 +3697,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -3107,6 +3738,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -3124,10 +3757,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -3137,6 +3774,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -3144,6 +3783,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -3157,19 +3797,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -3194,7 +3841,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -3202,7 +3851,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -3217,13 +3870,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/flexbox.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -3257,17 +3915,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -3281,6 +3949,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -3313,11 +3982,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -3330,22 +4002,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -3354,26 +4030,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -3382,6 +4072,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -3400,10 +4091,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -3414,6 +4108,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -3421,6 +4117,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -3434,13 +4131,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -3448,6 +4150,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -3472,7 +4176,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -3480,7 +4186,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -3495,13 +4205,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/flexbox_config.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp \
@@ -3586,20 +4301,28 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
+  /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
   /usr/include/c++/15.2.1/bits/hashtable.h \
   /usr/include/c++/15.2.1/bits/hashtable_policy.h \
   /usr/include/c++/15.2.1/bits/invoke.h \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
+  /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
@@ -3607,6 +4330,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/std_abs.h \
@@ -3646,6 +4374,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/ext/aligned_buffer.h \
   /usr/include/c++/15.2.1/ext/alloc_traits.h \
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
@@ -3655,6 +4384,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
+  /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
@@ -3724,17 +4455,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -3748,6 +4489,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -3780,37 +4522,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -3819,26 +4569,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -3847,6 +4610,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -3864,10 +4629,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -3877,6 +4646,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -3884,6 +4655,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -3897,19 +4669,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -3934,7 +4713,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -3942,7 +4723,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -3957,13 +4742,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/frame.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -3997,17 +4787,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -4021,6 +4821,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -4053,11 +4854,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -4070,22 +4874,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -4094,26 +4902,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -4122,6 +4944,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -4140,10 +4963,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -4154,6 +4980,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -4161,6 +4989,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -4174,13 +5003,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -4188,6 +5022,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -4212,7 +5048,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -4220,7 +5058,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -4235,13 +5077,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/gauge.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -4274,17 +5121,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -4298,6 +5155,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -4330,37 +5188,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -4369,26 +5235,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -4397,6 +5276,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -4409,14 +5290,19 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_pair.h \
   /usr/include/c++/15.2.1/bits/stl_queue.h \
   /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/15.2.1/bits/stl_relops.h \
   /usr/include/c++/15.2.1/bits/stl_stack.h \
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -4426,6 +5312,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -4433,6 +5321,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -4446,19 +5335,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -4470,6 +5366,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/type_traits \
   /usr/include/c++/15.2.1/typeinfo \
   /usr/include/c++/15.2.1/unordered_map \
+  /usr/include/c++/15.2.1/utility \
   /usr/include/c++/15.2.1/variant \
   /usr/include/c++/15.2.1/vector \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
@@ -4482,7 +5379,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -4490,7 +5389,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -4505,13 +5408,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/graph.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -4544,17 +5452,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -4568,6 +5486,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -4600,37 +5519,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -4639,26 +5566,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -4667,6 +5607,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -4684,10 +5626,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -4697,6 +5643,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -4704,6 +5652,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -4717,19 +5666,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -4754,7 +5710,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -4762,7 +5720,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -4777,13 +5739,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/gridbox.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -4817,17 +5784,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -4841,6 +5818,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -4873,11 +5851,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -4890,22 +5871,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -4914,26 +5899,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -4942,6 +5941,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -4960,10 +5960,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -4974,6 +5977,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -4981,6 +5986,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -4994,13 +6000,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -5008,6 +6019,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -5032,7 +6045,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -5040,7 +6055,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -5055,13 +6074,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o: /mnt/e/Atlas/exte
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/hbox.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -5095,17 +6119,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -5119,6 +6153,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -5151,11 +6186,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -5168,22 +6206,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -5192,26 +6234,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -5220,6 +6276,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -5238,10 +6295,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -5252,6 +6312,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -5259,6 +6321,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -5272,13 +6335,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -5286,6 +6354,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -5310,7 +6380,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -5318,7 +6390,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -5333,13 +6409,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/hyperlink.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -5373,17 +6454,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -5397,6 +6488,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -5429,37 +6521,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -5468,26 +6568,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -5496,6 +6609,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -5513,10 +6628,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -5526,6 +6645,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -5533,6 +6654,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -5546,19 +6668,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -5583,7 +6712,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -5591,7 +6722,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -5606,13 +6741,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.o: /mnt/e/Atlas/ex
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/inverted.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -5646,17 +6786,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -5670,6 +6820,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -5702,37 +6853,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -5741,26 +6900,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -5769,6 +6941,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -5786,10 +6960,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -5799,6 +6977,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -5806,6 +6986,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -5819,19 +7000,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -5856,7 +7044,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -5864,7 +7054,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -5879,13 +7073,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o: /mnt/e/Atlas/ext
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/italic.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -5919,17 +7118,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -5943,6 +7152,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -5975,37 +7185,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -6014,26 +7232,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -6042,6 +7273,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -6059,10 +7292,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -6072,6 +7309,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -6079,6 +7318,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -6092,19 +7332,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -6129,7 +7376,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -6137,7 +7386,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -6152,13 +7405,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/italic.cpp.o: /mnt/e/Atlas/exter
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/linear_gradient.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -6192,20 +7450,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
@@ -6213,6 +7478,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -6226,6 +7494,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -6258,11 +7527,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -6275,22 +7547,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -6299,26 +7575,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -6328,6 +7618,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -6346,10 +7637,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -6360,6 +7654,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/cmath \
   /usr/include/c++/15.2.1/compare \
@@ -6368,6 +7664,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -6381,14 +7678,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
   /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -6396,6 +7697,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -6432,7 +7735,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -6440,7 +7745,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -6456,13 +7765,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.o: /mnt/e/At
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/node.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/node.hpp \
@@ -6486,17 +7800,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -6510,6 +7834,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -6542,27 +7867,33 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
@@ -6572,6 +7903,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -6580,24 +7912,38 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
+  /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -6606,10 +7952,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
+  /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
@@ -6623,6 +7972,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -6632,6 +7984,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -6639,6 +7993,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -6651,17 +8006,23 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
+  /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stdexcept \
   /usr/include/c++/15.2.1/streambuf \
@@ -6684,7 +8045,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -6692,7 +8055,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -6707,13 +8074,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/node_decorator.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -6747,17 +8119,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -6771,6 +8153,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -6803,37 +8186,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -6842,26 +8233,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -6870,6 +8274,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -6887,10 +8293,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -6900,6 +8310,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -6907,6 +8319,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -6920,19 +8333,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -6957,7 +8377,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -6965,7 +8387,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -6980,13 +8406,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o: /mnt/e/Atl
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/paragraph.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -7019,17 +8450,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -7043,6 +8484,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -7075,37 +8517,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -7114,26 +8564,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -7142,6 +8605,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -7159,10 +8624,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -7172,6 +8641,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -7179,6 +8650,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -7192,19 +8664,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -7229,7 +8708,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -7237,7 +8718,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -7252,13 +8737,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o: /mnt/e/Atlas/ex
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/reflect.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -7291,17 +8781,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -7315,6 +8815,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -7347,37 +8848,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -7386,26 +8895,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -7414,6 +8936,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -7431,10 +8955,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -7444,6 +8972,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -7451,6 +8981,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -7464,19 +8995,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -7501,7 +9039,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -7509,7 +9049,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -7524,13 +9068,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o: /mnt/e/Atlas/exte
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/scroll_indicator.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -7564,17 +9113,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -7588,6 +9147,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -7620,11 +9180,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -7637,22 +9200,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -7661,26 +9228,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -7689,6 +9270,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -7707,10 +9289,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -7721,6 +9306,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -7728,6 +9315,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -7741,13 +9329,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -7755,6 +9348,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -7779,7 +9374,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -7787,7 +9384,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -7802,13 +9403,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o: /mnt/e/A
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/selection.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -7842,17 +9448,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -7866,6 +9482,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -7898,11 +9515,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -7915,22 +9535,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -7939,26 +9563,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -7967,6 +9605,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -7985,10 +9624,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -7999,6 +9641,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -8006,6 +9650,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -8019,13 +9664,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -8033,6 +9683,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -8057,7 +9709,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -8065,7 +9719,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -8080,13 +9738,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection.cpp.o: /mnt/e/Atlas/ex
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/selection_style.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -8120,17 +9783,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -8144,6 +9817,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -8176,37 +9850,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -8215,26 +9897,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -8243,6 +9938,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -8260,10 +9957,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -8273,6 +9974,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -8280,6 +9983,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -8293,19 +9997,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -8330,7 +10041,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -8338,7 +10051,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -8353,13 +10070,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/selection_style.cpp.o: /mnt/e/At
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/separator.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -8392,17 +10114,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -8416,6 +10148,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -8448,37 +10181,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -8487,26 +10228,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -8515,6 +10269,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -8532,10 +10288,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -8545,6 +10305,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -8552,6 +10314,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -8565,19 +10328,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -8602,7 +10372,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -8610,7 +10382,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -8625,13 +10401,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o: /mnt/e/Atlas/ex
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/size.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -8664,17 +10445,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -8688,6 +10479,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -8720,11 +10512,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -8737,22 +10532,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -8761,26 +10560,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -8789,6 +10602,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -8807,10 +10621,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -8821,6 +10638,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -8828,6 +10647,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -8841,13 +10661,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -8855,6 +10680,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -8879,7 +10706,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -8887,7 +10716,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -8902,13 +10735,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/spinner.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -8941,17 +10779,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -8965,6 +10813,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -8997,37 +10846,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -9036,26 +10893,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -9064,6 +10934,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -9081,10 +10953,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -9094,6 +10970,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -9101,6 +10979,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -9114,19 +10993,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -9151,7 +11037,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -9159,7 +11047,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -9174,13 +11066,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o: /mnt/e/Atlas/exte
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/strikethrough.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -9214,17 +11111,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -9238,6 +11145,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -9270,37 +11178,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -9309,26 +11225,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -9337,6 +11266,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -9354,10 +11285,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -9367,6 +11302,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -9374,6 +11311,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -9387,19 +11325,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -9424,7 +11369,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -9432,7 +11379,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -9447,13 +11398,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o: /mnt/e/Atla
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/table.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -9487,17 +11443,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -9511,6 +11477,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -9543,11 +11510,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -9560,22 +11530,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -9584,26 +11558,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -9612,6 +11600,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -9630,10 +11619,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -9644,6 +11636,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -9651,6 +11645,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -9664,13 +11659,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -9678,6 +11678,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -9702,7 +11704,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -9710,7 +11714,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -9725,13 +11733,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o: /mnt/e/Atlas/extern
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/text.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -9764,17 +11777,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -9788,6 +11811,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -9820,11 +11844,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -9837,22 +11864,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -9861,26 +11892,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -9889,6 +11934,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -9907,10 +11953,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -9921,6 +11970,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -9928,6 +11979,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -9941,13 +11993,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -9955,6 +12012,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -9979,7 +12038,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -9987,7 +12048,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -10002,13 +12067,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/underlined.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -10042,17 +12112,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -10066,6 +12146,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -10098,37 +12179,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -10137,26 +12226,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -10165,6 +12267,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -10182,10 +12286,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -10195,6 +12303,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -10202,6 +12312,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -10215,19 +12326,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -10252,7 +12370,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -10260,7 +12380,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -10275,13 +12399,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o: /mnt/e/Atlas/e
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/underlined_double.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -10315,17 +12444,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -10339,6 +12478,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -10371,37 +12511,45 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/align.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocated_ptr.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -10410,26 +12558,39 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -10438,6 +12599,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
@@ -10455,10 +12618,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
@@ -10468,6 +12635,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -10475,6 +12644,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -10488,19 +12658,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -10525,7 +12702,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -10533,7 +12712,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -10548,13 +12731,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o: /mnt/e/
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/util.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -10587,17 +12775,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -10611,6 +12809,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -10643,11 +12842,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -10660,22 +12862,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -10684,26 +12890,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -10712,6 +12932,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -10730,10 +12951,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -10744,6 +12968,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -10751,6 +12977,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -10764,13 +12991,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -10778,6 +13010,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -10802,7 +13036,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -10810,7 +13046,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -10825,13 +13065,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/external/ftxui/src/ftxui/dom/vbox.cpp \
   /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp \
@@ -10865,17 +13110,27 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -10889,6 +13144,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -10921,11 +13177,14 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/auto_ptr.h \
@@ -10938,22 +13197,26 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/atomic_wait.h \
   /usr/include/c++/15.2.1/bits/basic_ios.h \
   /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/deque.tcc \
+  /usr/include/c++/15.2.1/bits/elements_of.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/formatfwd.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -10962,26 +13225,40 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
   /usr/include/c++/15.2.1/bits/istream.tcc \
+  /usr/include/c++/15.2.1/bits/iterator_concepts.h \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
   /usr/include/c++/15.2.1/bits/locale_facets.h \
   /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
+  /usr/include/c++/15.2.1/bits/max_size_type.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
+  /usr/include/c++/15.2.1/bits/mofunc_impl.h \
   /usr/include/c++/15.2.1/bits/monostate.h \
   /usr/include/c++/15.2.1/bits/move.h \
+  /usr/include/c++/15.2.1/bits/move_only_function.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
+  /usr/include/c++/15.2.1/bits/out_ptr.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
+  /usr/include/c++/15.2.1/bits/ranges_algo.h \
+  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
+  /usr/include/c++/15.2.1/bits/ranges_base.h \
+  /usr/include/c++/15.2.1/bits/ranges_cmp.h \
+  /usr/include/c++/15.2.1/bits/ranges_uninitialized.h \
+  /usr/include/c++/15.2.1/bits/ranges_util.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/shared_ptr.h \
@@ -10990,6 +13267,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
+  /usr/include/c++/15.2.1/bits/std_mutex.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
@@ -11008,10 +13286,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
+  /usr/include/c++/15.2.1/bits/stream_iterator.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
   /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/unicode-data.h \
+  /usr/include/c++/15.2.1/bits/unicode.h \
   /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/unique_ptr.h \
   /usr/include/c++/15.2.1/bits/unordered_map.h \
@@ -11022,6 +13303,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/bits/version.h \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
+  /usr/include/c++/15.2.1/charconv \
+  /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
@@ -11029,6 +13312,7 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
@@ -11042,13 +13326,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/format \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/istream \
+  /usr/include/c++/15.2.1/iterator \
+  /usr/include/c++/15.2.1/limits \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
   /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
@@ -11056,6 +13345,8 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/queue \
+  /usr/include/c++/15.2.1/ranges \
+  /usr/include/c++/15.2.1/span \
   /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stack \
   /usr/include/c++/15.2.1/stdexcept \
@@ -11080,7 +13371,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -11088,7 +13381,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
@@ -11103,13 +13400,18 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/underlined_double.cpp:
@@ -11126,8 +13428,6 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/selection_style.cpp:
 
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/selection.cpp:
-
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/scroll_indicator.cpp:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/reflect.cpp:
@@ -11137,8 +13437,6 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/inverted.cpp:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/hbox.cpp:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/gridbox.cpp:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/graph.cpp:
 
@@ -11162,8 +13460,6 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/clear_under.cpp:
 
-/usr/include/c++/15.2.1/tr1/special_function_util.h:
-
 /usr/include/c++/15.2.1/tr1/poly_laguerre.tcc:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/flexbox_helper.cpp:
@@ -11173,8 +13469,6 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 /usr/include/c++/15.2.1/tr1/legendre_function.tcc:
 
 /usr/include/c++/15.2.1/tr1/exp_integral.tcc:
-
-/usr/include/c++/15.2.1/tr1/ell_integral.tcc:
 
 /usr/include/c++/15.2.1/tr1/bessel_function.tcc:
 
@@ -11200,13 +13494,19 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
 
+/usr/include/c++/15.2.1/bits/ranges_algo.h:
+
 /usr/include/c++/15.2.1/algorithm:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/bold.cpp:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
-/usr/include/wchar.h:
+/usr/include/unistd.h:
+
+/usr/include/syscall.h:
 
 /usr/include/sys/types.h:
 
@@ -11214,45 +13514,97 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/sys/cdefs.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/bits/fp-fast.h:
 
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
 
-/usr/include/math.h:
+/usr/include/locale.h:
 
-/usr/include/c++/15.2.1/bits/invoke.h:
+/usr/include/linux/stddef.h:
 
-/usr/include/bits/endian.h:
+/usr/include/linux/sched/types.h:
 
-/usr/include/c++/15.2.1/bits/stl_function.h:
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/selection.cpp:
+
+/usr/include/linux/limits.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/linux/close_range.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/box_helper.hpp:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/15.2.1/cmath:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/vbox.cpp:
+
+/usr/include/c++/15.2.1/utility:
+
+/usr/include/c++/15.2.1/unordered_map:
+
+/usr/include/c++/15.2.1/typeinfo:
+
+/usr/include/c++/15.2.1/string_view:
+
+/usr/include/c++/15.2.1/string:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/paragraph.cpp:
+
+/usr/include/c++/15.2.1/stdexcept:
+
+/usr/include/c++/15.2.1/stack:
+
+/usr/include/c++/15.2.1/sstream:
+
+/usr/include/c++/15.2.1/type_traits:
+
+/usr/include/c++/15.2.1/span:
+
+/usr/include/c++/15.2.1/ranges:
+
+/usr/include/c++/15.2.1/pstl/pstl_config.h:
 
 /usr/include/c++/15.2.1/pstl/glue_memory_defs.h:
 
-/usr/include/c++/15.2.1/bits/stl_multimap.h:
+/usr/include/c++/15.2.1/pstl/execution_defs.h:
 
-/usr/include/c++/15.2.1/bits/exception_ptr.h:
-
-/usr/include/c++/15.2.1/tr1/beta_function.tcc:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/c++/15.2.1/bits/exception.h:
-
-/usr/include/stdio.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
+/usr/include/c++/15.2.1/optional:
 
 /usr/include/c++/15.2.1/bits/concept_check.h:
 
 /usr/include/c++/15.2.1/bits/monostate.h:
+
+/usr/include/c++/15.2.1/bits/stream_iterator.h:
 
 /usr/include/c++/15.2.1/bits/basic_ios.tcc:
 
@@ -11260,11 +13612,17 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/bits/types/error_t.h:
 
+/usr/include/c++/15.2.1/bits/formatfwd.h:
+
 /usr/include/c++/15.2.1/bits/requires_hosted.h:
 
 /usr/include/c++/15.2.1/backward/auto_ptr.h:
 
-/usr/include/c++/15.2.1/bits/hash_bytes.h:
+/usr/include/c++/15.2.1/tr1/ell_integral.tcc:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/15.2.1/bits/postypes.h:
 
 /usr/include/bits/wctype-wchar.h:
 
@@ -11272,35 +13630,17 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/bits/timesize.h:
 
-/usr/include/c++/15.2.1/bits/ios_base.h:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/dbox.cpp:
-
-/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/paragraph.cpp:
-
-/usr/include/c++/15.2.1/stdexcept:
-
-/usr/include/c++/15.2.1/cctype:
-
-/usr/include/c++/15.2.1/backward/binders.h:
-
 /mnt/e/Atlas/external/ftxui/include/ftxui/screen/box.hpp:
 
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/c++/15.2.1/bits/memoryfwd.h:
 
-/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
-
-/usr/include/c++/15.2.1/cwchar:
-
 /usr/include/c++/15.2.1/tr1/poly_hermite.tcc:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/include/c++/15.2.1/bits/deque.tcc:
+/usr/include/c++/15.2.1/climits:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/size.cpp:
 
@@ -11314,33 +13654,23 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/bits/types/struct_tm.h:
 
+/usr/include/stdlib.h:
+
+/usr/include/c++/15.2.1/bits/mofunc_impl.h:
+
 /usr/include/c++/15.2.1/ext/atomicity.h:
 
 /usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/15.2.1/vector:
-
-/usr/include/c++/15.2.1/bits/exception_defines.h:
 
 /usr/include/bits/waitflags.h:
 
 /usr/include/c++/15.2.1/bits/stl_pair.h:
 
-/usr/include/ctype.h:
-
 /usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/c++/15.2.1/memory:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/automerge.cpp:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/flex.cpp:
-
-/usr/include/c++/15.2.1/bits/functexcept.h:
-
-/usr/include/c++/15.2.1/streambuf:
-
 /usr/include/bits/struct_rwlock.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -11348,15 +13678,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/bits/types/locale_t.h:
 
-/usr/include/bits/types/__mbstate_t.h:
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/c++/15.2.1/bits/charconv.h:
-
-/mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp:
-
-/usr/include/bits/stdio_lim.h:
+/usr/include/c++/15.2.1/bits/parse_numbers.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -11364,21 +13688,31 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/sstream.tcc:
 
-/usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
-
-/usr/include/bits/types/__fpos_t.h:
-
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/frame.cpp:
 
 /usr/include/bits/types/clock_t.h:
 
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/bits/timex.h:
+/usr/include/c++/15.2.1/streambuf:
+
+/usr/include/c++/15.2.1/bits/ranges_algobase.h:
 
 /usr/include/bits/errno.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/bits/time64.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/types/time_t.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/gridbox.cpp:
+
+/usr/include/c++/15.2.1/bits/atomic_wait.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/c++/15.2.1/bits/stl_map.h:
 
@@ -11386,11 +13720,17 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/canvas.hpp:
 
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/linear_gradient.cpp:
+
+/usr/include/c++/15.2.1/debug/debug.h:
+
+/usr/include/c++/15.2.1/bits/align.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/flex.cpp:
+
+/usr/include/c++/15.2.1/bits/functexcept.h:
+
 /usr/include/c++/15.2.1/bits/ostream.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
-
-/usr/include/asm-generic/int-ll64.h:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/util.cpp:
 
@@ -11398,17 +13738,51 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/util/ref.hpp:
 
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/c++/15.2.1/bits/charconv.h:
+
+/mnt/e/Atlas/external/ftxui/include/ftxui/screen/image.hpp:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/node_decorator.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/mnt/e/Atlas/external/ftxui/include/ftxui/dom/linear_gradient.hpp:
+
+/usr/include/c++/15.2.1/bits/nested_exception.h:
+
+/usr/include/c++/15.2.1/tr1/beta_function.tcc:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/15.2.1/bits/stl_multimap.h:
+
+/usr/include/c++/15.2.1/bits/exception_ptr.h:
+
+/usr/include/asm/unistd.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/c++/15.2.1/bits/stl_bvector.h:
+
 /usr/include/c++/15.2.1/bits/allocated_ptr.h:
 
 /usr/include/c++/15.2.1/istream:
-
-/usr/include/c++/15.2.1/bits/hashtable_policy.h:
 
 /usr/include/bits/uintn-identity.h:
 
 /usr/include/c++/15.2.1/bits/basic_ios.h:
 
 /usr/include/c++/15.2.1/bit:
+
+/usr/include/c++/15.2.1/bits/locale_facets_nonio.h:
 
 /usr/include/c++/15.2.1/bits/cpp_type_traits.h:
 
@@ -11418,21 +13792,29 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/requirement.hpp:
 
-/usr/include/c++/15.2.1/bits/stl_bvector.h:
+/usr/include/stdio.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/uio_lim.h:
+
+/usr/include/c++/15.2.1/bits/exception.h:
 
 /usr/include/bits/libc-header-start.h:
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/direction.hpp:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/posix1_lim.h:
 
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/c++/15.2.1/bits/alloc_traits.h:
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/elements.hpp:
-
-/mnt/e/Atlas/external/ftxui/include/ftxui/dom/linear_gradient.hpp:
-
-/usr/include/c++/15.2.1/bits/erase_if.h:
 
 /usr/include/c++/15.2.1/bits/algorithmfwd.h:
 
@@ -11444,25 +13826,17 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/deprecated.hpp:
 
-/usr/include/c++/15.2.1/limits:
-
-/usr/include/c++/15.2.1/bits/stl_construct.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/15.2.1/bits/istream.tcc:
-
-/usr/include/c++/15.2.1/cstdio:
-
 /usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/types/clockid_t.h:
 
 /usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/c++/15.2.1/pstl/execution_defs.h:
+/usr/include/bits/posix_opt.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+/usr/include/bits/local_lim.h:
+
+/usr/include/bits/syscall.h:
 
 /usr/include/c++/15.2.1/map:
 
@@ -11470,21 +13844,17 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/selection.hpp:
 
+/usr/include/limits.h:
+
 /mnt/e/Atlas/external/ftxui/include/ftxui/dom/node.hpp:
 
 /usr/include/c++/15.2.1/bits/stl_iterator.h:
 
-/usr/include/bits/stdint-least.h:
+/usr/include/c++/15.2.1/format:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/c++/15.2.1/ext/numeric_traits.h:
 
-/usr/include/asm/types.h:
-
-/usr/include/bits/byteswap.h:
-
-/mnt/e/Atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp:
-
-/usr/include/c++/15.2.1/bits/allocator.h:
+/usr/include/bits/getopt_core.h:
 
 /usr/include/c++/15.2.1/bits/locale_facets.tcc:
 
@@ -11498,63 +13868,85 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/asm/posix_types.h:
 
-/usr/include/bits/time64.h:
+/usr/include/bits/environments.h:
 
-/usr/include/bits/stdlib-float.h:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+/usr/include/asm/types.h:
 
-/usr/include/bits/endianness.h:
+/usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
 
-/usr/include/c++/15.2.1/bits/parse_numbers.h:
+/usr/include/bits/types/__fpos_t.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/bits/floatn-common.h:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/italic.cpp:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/hyperlink.cpp:
-
-/usr/include/c++/15.2.1/bits/hashtable.h:
-
-/usr/include/bits/floatn.h:
+/usr/include/asm/unistd_64.h:
 
 /usr/include/bits/long-double.h:
 
-/usr/include/bits/pthread_stack_min-dynamic.h:
+/usr/include/bits/endian.h:
 
-/usr/include/c++/15.2.1/pstl/pstl_config.h:
+/usr/include/math.h:
+
+/usr/include/c++/15.2.1/bits/invoke.h:
+
+/usr/include/c++/15.2.1/bits/stl_function.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/15.2.1/ios:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/libintl.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/c++/15.2.1/bits/std_mutex.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/bits/floatn.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/border.cpp:
+
+/usr/include/errno.h:
+
+/usr/include/c++/15.2.1/tuple:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/c++/15.2.1/bits/vector.tcc:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/15.2.1/bits/atomic_base.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/15.2.1/stack:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/box_helper.hpp:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/c++/15.2.1/bits/functional_hash.h:
-
-/usr/include/c++/15.2.1/tr1/hypergeometric.tcc:
-
-/usr/include/c++/15.2.1/bits/stl_relops.h:
-
 /usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/15.2.1/system_error:
+
+/usr/include/asm/errno.h:
+
+/usr/include/bits/stdint-uintn.h:
 
 /usr/include/c++/15.2.1/cstdlib:
 
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/features.h:
+
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/sched.h:
 
+/usr/include/sys/syscall.h:
+
 /usr/include/c++/15.2.1/bits/stl_algobase.h:
 
-/usr/include/bits/select.h:
+/usr/include/c++/15.2.1/bits/codecvt.h:
 
 /usr/include/bits/waitstatus.h:
 
@@ -11564,33 +13956,59 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/bits/setjmp.h:
 
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/node_decorator.hpp:
+/usr/include/c++/15.2.1/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/15.2.1/bits/nested_exception.h:
+/usr/include/c++/15.2.1/bits/deque.tcc:
 
-/usr/include/c++/15.2.1/bits/enable_special_members.h:
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/automerge.cpp:
+
+/usr/include/c++/15.2.1/memory:
+
+/usr/include/c++/15.2.1/vector:
+
+/usr/include/c++/15.2.1/bits/exception_defines.h:
 
 /usr/include/c++/15.2.1/bits/stringfwd.h:
 
-/usr/include/bits/types/time_t.h:
+/usr/include/c++/15.2.1/bits/enable_special_members.h:
 
-/usr/include/c++/15.2.1/ios:
+/usr/include/c++/15.2.1/bits/erase_if.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/c++/15.2.1/bits/functional_hash.h:
 
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/linear_gradient.cpp:
+/usr/include/c++/15.2.1/tr1/hypergeometric.tcc:
 
-/usr/include/c++/15.2.1/bits/align.h:
+/usr/include/c++/15.2.1/bits/stl_relops.h:
 
-/usr/include/c++/15.2.1/debug/debug.h:
+/usr/include/c++/15.2.1/bits/hash_bytes.h:
 
-/usr/include/c++/15.2.1/type_traits:
+/usr/include/c++/15.2.1/backward/binders.h:
+
+/usr/include/c++/15.2.1/cctype:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/italic.cpp:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/hyperlink.cpp:
+
+/usr/include/c++/15.2.1/bits/hashtable.h:
+
+/usr/include/c++/15.2.1/bits/hashtable_policy.h:
+
+/usr/include/c++/15.2.1/bits/ios_base.h:
+
+/mnt/e/Atlas/external/ftxui/src/ftxui/dom/dbox.cpp:
+
+/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/15.2.1/cstdio:
 
 /mnt/e/Atlas/external/ftxui/src/ftxui/dom/node.cpp:
 
 /usr/include/alloca.h:
 
 /usr/include/c++/15.2.1/bits/locale_classes.h:
+
+/usr/include/c++/15.2.1/bits/locale_conv.h:
 
 /usr/include/c++/15.2.1/bits/locale_facets.h:
 
@@ -11600,7 +14018,25 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/ext/string_conversions.h:
 
+/usr/include/c++/15.2.1/bits/stl_construct.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/c++/15.2.1/bits/istream.tcc:
+
+/usr/include/c++/15.2.1/limits:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc:
+
 /usr/include/c++/15.2.1/bits/localefwd.h:
+
+/usr/include/c++/15.2.1/bits/allocator.h:
+
+/mnt/e/Atlas/external/ftxui/include/ftxui/dom/flexbox_config.hpp:
+
+/usr/include/c++/15.2.1/bits/max_size_type.h:
 
 /usr/include/c++/15.2.1/bits/memory_resource.h:
 
@@ -11608,13 +14044,13 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/move.h:
 
+/usr/include/bits/stdint-least.h:
+
+/usr/include/c++/15.2.1/bits/move_only_function.h:
+
+/usr/include/c++/15.2.1/functional:
+
 /usr/include/c++/15.2.1/bits/new_allocator.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/c++/15.2.1/system_error:
 
 /usr/include/c++/15.2.1/bits/basic_string.tcc:
 
@@ -11626,13 +14062,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/streambuf.tcc:
 
-/usr/include/c++/15.2.1/unordered_map:
+/usr/include/c++/15.2.1/charconv:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
 
 /usr/include/c++/15.2.1/bits/ostream.tcc:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
 /usr/include/c++/15.2.1/bits/ostream_insert.h:
 
@@ -11640,11 +14074,31 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/ptr_traits.h:
 
-/usr/include/c++/15.2.1/bits/postypes.h:
+/usr/include/c++/15.2.1/tr1/special_function_util.h:
+
+/usr/include/c++/15.2.1/bits/out_ptr.h:
+
+/mnt/e/Atlas/external/ftxui/include/ftxui/dom/take_any_args.hpp:
+
+/usr/include/c++/15.2.1/bits/shared_ptr_base.h:
+
+/usr/include/c++/15.2.1/debug/assertions.h:
+
+/usr/include/c++/15.2.1/new:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
 /usr/include/c++/15.2.1/bits/range_access.h:
+
+/usr/include/c++/15.2.1/bits/ranges_base.h:
+
+/usr/include/c++/15.2.1/bits/ranges_uninitialized.h:
+
+/usr/include/c++/15.2.1/variant:
+
+/usr/include/c++/15.2.1/numbers:
+
+/usr/include/c++/15.2.1/initializer_list:
 
 /usr/include/sys/single_threaded.h:
 
@@ -11656,17 +14110,15 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/linux/types.h:
 
-/usr/include/c++/15.2.1/bits/std_abs.h:
+/usr/include/c++/15.2.1/bits/iterator_concepts.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/c++/15.2.1/bits/std_abs.h:
 
 /usr/include/c++/15.2.1/bits/std_function.h:
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/screen/terminal.hpp:
 
 /usr/include/c++/15.2.1/bits/stl_deque.h:
-
-/usr/include/linux/errno.h:
 
 /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
 
@@ -11677,6 +14129,12 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 /mnt/e/Atlas/external/ftxui/include/ftxui/screen/string.hpp:
 
 /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/15.2.1/bits/stl_algo.h:
+
+/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
 
 /mnt/e/Atlas/external/ftxui/include/ftxui/screen/screen.hpp:
 
@@ -11690,13 +14148,9 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/stl_heap.h:
 
+/usr/include/c++/15.2.1/bits/ranges_util.h:
+
 /usr/include/c++/15.2.1/exception:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/border.cpp:
-
-/usr/include/c++/15.2.1/tuple:
-
-/usr/include/errno.h:
 
 /usr/include/c++/15.2.1/bits/streambuf_iterator.h:
 
@@ -11704,13 +14158,21 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/string_view.tcc:
 
-/usr/include/locale.h:
+/usr/include/c++/15.2.1/deque:
+
+/usr/include/c++/15.2.1/bits/unicode-data.h:
+
+/usr/include/c++/15.2.1/bits/unicode.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/c++/15.2.1/ext/alloc_traits.h:
+
+/usr/include/c++/15.2.1/cwchar:
+
+/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
 
 /usr/include/c++/15.2.1/bits/unique_ptr.h:
-
-/mnt/e/Atlas/external/ftxui/src/ftxui/dom/vbox.cpp:
-
-/usr/include/c++/15.2.1/utility:
 
 /usr/include/c++/15.2.1/bits/unordered_map.h:
 
@@ -11724,7 +14186,11 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/bits/uses_allocator_args.h:
 
-/usr/include/c++/15.2.1/bits/vector.tcc:
+/usr/include/linux/posix_types.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/15.2.1/bits/utility.h:
 
 /usr/include/c++/15.2.1/bits/version.h:
 
@@ -11736,35 +14202,19 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/cstdint:
 
-/mnt/e/Atlas/external/ftxui/include/ftxui/dom/take_any_args.hpp:
+/usr/include/bits/timex.h:
 
-/usr/include/c++/15.2.1/bits/shared_ptr_base.h:
+/usr/include/c++/15.2.1/ctime:
 
-/usr/include/c++/15.2.1/debug/assertions.h:
-
-/usr/include/c++/15.2.1/new:
-
-/usr/include/c++/15.2.1/deque:
-
-/usr/include/c++/15.2.1/ext/aligned_buffer.h:
-
-/usr/include/c++/15.2.1/ext/alloc_traits.h:
+/usr/include/c++/15.2.1/bits/ranges_cmp.h:
 
 /usr/include/c++/15.2.1/bits/cxxabi_forced.h:
 
+/usr/include/c++/15.2.1/bits/elements_of.h:
+
 /usr/include/c++/15.2.1/ext/concurrence.h:
 
-/usr/include/c++/15.2.1/ext/numeric_traits.h:
-
 /usr/include/c++/15.2.1/ext/type_traits.h:
-
-/usr/include/c++/15.2.1/functional:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/c++/15.2.1/bits/utility.h:
-
-/usr/include/linux/posix_types.h:
 
 /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
 
@@ -11772,46 +14222,10 @@ external/ftxui/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o: /mnt/e/Atlas/externa
 
 /usr/include/c++/15.2.1/iosfwd:
 
-/usr/include/c++/15.2.1/optional:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/15.2.1/sstream:
+/usr/include/c++/15.2.1/iterator:
 
-/usr/include/c++/15.2.1/string:
+/usr/include/c++/15.2.1/ext/aligned_buffer.h:
 
-/usr/include/c++/15.2.1/string_view:
-
-/usr/include/c++/15.2.1/cmath:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/15.2.1/typeinfo:
-
-/usr/include/c++/15.2.1/initializer_list:
-
-/usr/include/c++/15.2.1/variant:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/linux/sched/types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/c++/15.2.1/bits/stl_algo.h:
-
-/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
-
-/usr/include/pthread.h:
+/usr/include/c++/15.2.1/locale:

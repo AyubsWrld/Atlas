@@ -21,32 +21,38 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
  /usr/include/c++/15.2.1/ext/numeric_traits.h \
  /usr/include/c++/15.2.1/bits/stl_pair.h \
  /usr/include/c++/15.2.1/bits/move.h \
- /usr/include/c++/15.2.1/bits/utility.h \
+ /usr/include/c++/15.2.1/bits/utility.h /usr/include/c++/15.2.1/compare \
+ /usr/include/c++/15.2.1/concepts \
  /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
+ /usr/include/c++/15.2.1/bits/iterator_concepts.h \
+ /usr/include/c++/15.2.1/bits/ptr_traits.h \
+ /usr/include/c++/15.2.1/bits/ranges_cmp.h \
  /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/15.2.1/bits/concept_check.h \
  /usr/include/c++/15.2.1/debug/assertions.h \
- /usr/include/c++/15.2.1/bits/stl_iterator.h \
- /usr/include/c++/15.2.1/bits/ptr_traits.h \
+ /usr/include/c++/15.2.1/bits/stl_iterator.h /usr/include/c++/15.2.1/new \
+ /usr/include/c++/15.2.1/bits/exception.h \
+ /usr/include/c++/15.2.1/bits/stl_construct.h \
  /usr/include/c++/15.2.1/debug/debug.h \
  /usr/include/c++/15.2.1/bits/predefined_ops.h \
- /usr/include/c++/15.2.1/bit /usr/include/c++/15.2.1/concepts \
- /usr/include/c++/15.2.1/bits/allocator.h \
+ /usr/include/c++/15.2.1/bit /usr/include/c++/15.2.1/bits/allocator.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/15.2.1/bits/new_allocator.h /usr/include/c++/15.2.1/new \
- /usr/include/c++/15.2.1/bits/exception.h \
+ /usr/include/c++/15.2.1/bits/new_allocator.h \
  /usr/include/c++/15.2.1/bits/memoryfwd.h \
  /usr/include/c++/15.2.1/bits/stl_function.h \
  /usr/include/c++/15.2.1/backward/binders.h \
  /usr/include/c++/15.2.1/ext/alloc_traits.h \
  /usr/include/c++/15.2.1/bits/alloc_traits.h \
- /usr/include/c++/15.2.1/bits/stl_construct.h \
  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
  /usr/include/c++/15.2.1/bits/node_handle.h \
  /usr/include/c++/15.2.1/bits/stl_map.h \
  /usr/include/c++/15.2.1/initializer_list /usr/include/c++/15.2.1/tuple \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/invoke.h \
+ /usr/include/c++/15.2.1/bits/ranges_util.h \
+ /usr/include/c++/15.2.1/bits/ranges_base.h \
+ /usr/include/c++/15.2.1/bits/max_size_type.h \
+ /usr/include/c++/15.2.1/numbers \
  /usr/include/c++/15.2.1/bits/stl_multimap.h \
  /usr/include/c++/15.2.1/bits/range_access.h \
  /usr/include/c++/15.2.1/bits/erase_if.h \
@@ -81,6 +87,7 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
  /usr/include/c++/15.2.1/bits/functional_hash.h \
  /usr/include/c++/15.2.1/bits/hash_bytes.h \
  /usr/include/c++/15.2.1/bits/string_view.tcc \
+ /usr/include/c++/15.2.1/bits/ranges_algobase.h \
  /usr/include/c++/15.2.1/ext/string_conversions.h \
  /usr/include/c++/15.2.1/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
@@ -118,4 +125,5 @@ external/ftxui/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
- /usr/include/c++/15.2.1/bits/vector.tcc
+ /usr/include/c++/15.2.1/bits/vector.tcc \
+ /usr/include/c++/15.2.1/bits/formatfwd.h

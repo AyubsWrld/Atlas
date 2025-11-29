@@ -1,4 +1,5 @@
 #include "pcm.hpp"
+#include <span>
 
 
 namespace Atlas
@@ -103,18 +104,14 @@ namespace Atlas
 
     }
 
-    constexpr std::size_t GetAudioFileSize(const AVFormatContext& fmt) noexcept
+    constexpr std::size_t GetAudioFileSize(const AVFormatContext* fmt) noexcept
     {
         /* Check whether there is enough information to derive this */ 
-        return ((fmt.bit_rate / 1024 ) * fmt.duration) ;
-    }
-
-    __attribute__((pure)) constexpr std::size_t GetAudioFileSize(const AVFormatContext* fmt) noexcept
-    {
-        /* Check whether there is enough information to derive this */ 
+      
+        // Total stream bitrate in bit/s, 0 if not
         return ((fmt->bit_rate / 1024 ) * fmt->duration) ;
-    }
 
+    }
     /* Perhaps inline all of this into a single routine */ 
     void ReadAudioStream(AVFormatContext* format_ctx, AVCodecContext* decoder_ctx, int best_stream_index)
     {
@@ -124,7 +121,6 @@ namespace Atlas
         // assert(best_stream_index < format_ctx->nb_streams && std::format("Ill-formed stream_index received: {}\n, greater than available streams within format", best_stream_index));
 
         AVPacket* Packet { av_packet_alloc() };
-        AVFrame*  Frame  { av_frame_alloc() };
         AVStream* BestStream = format_ctx->streams[best_stream_index];
 
         // assert(  (!Packet || !Frame) && std::format("Failed to allocate Frame({})/Packet({})", Frame, Packet));
@@ -134,4 +130,44 @@ namespace Atlas
                        best_stream_index,
                        "log.txt",
                        0
-               
+                       );
+
+        while(av_read_frame(format_ctx, Packet) == 0)
+        {
+            if(Packet->stream_index == best_stream_index) 
+            {
+                DecodeAudioPacket(decoder_ctx, Packet);
+            }
+            av_packet_unref(Packet);
+        }
+    }
+
+    void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet)
+    {
+        AVFrame*  Frame  { av_frame_alloc() };
+        if(!Frame)
+        {
+            std::cout << "Failed to allcoate frame" << std::endl; 
+        }
+
+        if(avcodec_send_packet(decoder_ctx, packet) == 0)
+        {
+            while(avcodec_receive_frame(decoder_ctx, Frame) == 0)
+            {
+                std::cout << Frame ;
+            }
+            std::cout << std::endl; 
+        }
+    }
+
+    std::ostream& operator<<(std::ostream& o, AVFrame* frame)
+    {
+        for(std::size_t i; i < AV_NUM_DATA_POINTERS; i++)
+        {
+            // o << std::format(
+            //                  "Data Location: {}\n Linesize: {}",
+            //                  static_cast<void*>(frame->data[i]),
+            //                  frame->linesize[i]
+            //                  );
+
+            o << std:

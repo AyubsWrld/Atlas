@@ -24,7 +24,6 @@ extern "C"
 
 #include <iostream>
 #include <utility>
-#include <span>
 #include <expected>
 #include <format>
 #include <cassert>
@@ -154,7 +153,33 @@ namespace Atlas
 
 */
     void ReadAudioStream(AVFormatContext* format_ctx, AVCodecContext* decoder_ctx, int best_stream_index);
+    /*
 
-    constexpr std::size_t GetAudioFileSize(const AVFormatContext& codec) noexcept;
+    @purpose        Returns the size in kilobytes needed to store the uncompressed audiofile 
+                    
+    @param:         [in]                const AVFormatContext*      FormatContext used to store the audiofile. 
+
+
+                                    return
+
+    @code:          std::span<uint8_t>          Pointer to underlying buffer used to store the PCM data. 
+
+    @code:          int                         Value < 0 on failure. 
+
+
+    @notes:         This routine assumes that all the necessary steps for priming the foramt context have been applied
+                    ( avformat_open_input &avformat_find_stream_info) prior to passing it otherwise the return value 
+                    might not be accured.
+
+    @notes:         Currently no error handling is done this is simply a side effectless routine. 
+                    
+
+*/
+    [[nodiscard]] constexpr std::size_t GetAudioFileSize(const AVFormatContext* codec) noexcept;
+
+    void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet);
+
+
+    std::ostream& operator<<(std::ostream& o, AVFrame frame);
 }
 

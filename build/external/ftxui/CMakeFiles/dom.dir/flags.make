@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/mnt/e/Atlas/external/ftxui/src -isystem /mnt/e/Atlas/external/ftxui/include
 
-CXX_FLAGS = -g -fPIC
+CXX_FLAGS = -g -std=c++23 -fPIC
 
