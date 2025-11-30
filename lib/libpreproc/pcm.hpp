@@ -124,7 +124,7 @@ namespace Atlas
 
 */
 
-    void SplitAudioStream();
+    void SplitAudioStream(const char* file = NULL);
 
 /*
     @purpose        Opens a file using the name passed in as an argument and writes raw PCM data to a
@@ -189,7 +189,7 @@ namespace Atlas
 
 */
 
-    void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet);
+    void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet, FILE* output);
 
 
 /*

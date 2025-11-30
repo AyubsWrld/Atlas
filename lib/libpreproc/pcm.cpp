@@ -4,7 +4,6 @@
 
 namespace Atlas
 {
-
     [[nodiscard]] 
     int PrepareDecoderForStream(const AVCodec** codec, AVFormatContext* format_context, AVCodecContext** decoder_ctx, AVMediaType mediatype)
     {
@@ -54,7 +53,7 @@ namespace Atlas
         return best_stream_index; 
     }
 
-    void SplitAudioStream() 
+    void SplitAudioStream(const char* file) 
     // void SplitAudioStream(const std::string& filename, char* buffer) 
     {
         const AVCodec*      Decoder; 
@@ -72,7 +71,7 @@ namespace Atlas
         
         ReturnValue = avformat_open_input(
                                           &FormatContext,
-                                          "/mnt/e/atlas/examples/ffmpeg/codecs/input.mp4",
+                                          "/mnt/e/atlas/build/input.mp3",
                                           NULL,
                                           NULL
                                           );
@@ -120,6 +119,12 @@ namespace Atlas
         // assert(best_stream_index < VALID_STREAM_INDEX && std::format("Ill-formed (negative) stream_index received: {}\n", best_stream_index));
         // assert(best_stream_index < format_ctx->nb_streams && std::format("Ill-formed stream_index received: {}\n, greater than available streams within format", best_stream_index));
 
+        FILE* output = fopen("output.wav", "wb");
+        if(!output)
+        {
+            std::cout << "Undefined file " << std::endl; 
+            return;
+        }
         AVPacket* Packet { av_packet_alloc() };
         AVStream* BestStream = format_ctx->streams[best_stream_index];
 
@@ -136,13 +141,13 @@ namespace Atlas
         {
             if(Packet->stream_index == best_stream_index) 
             {
-                DecodeAudioPacket(decoder_ctx, Packet);
+                DecodeAudioPacket(decoder_ctx, Packet, output);
             }
             av_packet_unref(Packet);
         }
     }
 
-    void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet)
+    void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet, FILE* output)
     {
         int audio_frame_count = 0;
         AVFrame*  Frame  { av_frame_alloc() };
@@ -162,14 +167,28 @@ namespace Atlas
 
         while(avcodec_receive_frame(decoder_ctx, Frame) == 0)
         {
-
+            /*
+            * For audio, only linesize[0] may be set. For planar audio, each channel
+            * plane must be the same size.
+            */
+            
+            /*
+             * For planar sample formats, each audio channel is in a separate data plane,
+             * and linesize is the buffer size, in bytes, for a single plane. All data planes
+             * must be the same size. For packed sample formats, only the first data plane is
+             * used, and samples for each channel are interleaved. In this case, linesize is 
+             * the buffer size, in bytes, for the 1 plane.
+             * For audio, only linesize[0] may be set. For planar audio, each channel
+             * plane must be the same size.
+             */ 
+        
             size_t unpadded_linesize = Frame->nb_samples * av_get_bytes_per_sample((enum AVSampleFormat) Frame->format);
             printf("audio_frame n:%d nb_samples:%d pts:%s\n",
                 audio_frame_count++, Frame->nb_samples,
                 av_ts2timestr(Frame->pts, &decoder_ctx->time_base));
 
+            fwrite(Frame->extended_data[0], 1, unpadded_linesize, output); // This can fail check return value.
 
-            std::cout << unpadded_linesize << std::endl; 
             av_frame_unref(Frame);
         }
     }
