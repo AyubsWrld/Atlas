@@ -287,6 +287,7 @@ lib/libpreproc/CMakeFiles/libpreproc.dir/pcm.cpp.o
  /usr/include/libavutil/pixfmt.h
  /usr/include/libavutil/rational.h
  /usr/include/libavutil/samplefmt.h
+ /usr/include/libavutil/timestamp.h
  /usr/include/libavutil/version.h
  /usr/include/libintl.h
  /usr/include/limits.h

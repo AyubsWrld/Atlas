@@ -20,6 +20,7 @@ extern "C"
 #include<libavcodec/avcodec.h>
 #include<libavformat/avformat.h>
 #include<libavutil/avutil.h>
+#include<libavutil/timestamp.h>
 }
 
 #include <iostream>
@@ -153,6 +154,7 @@ namespace Atlas
 
 */
     void ReadAudioStream(AVFormatContext* format_ctx, AVCodecContext* decoder_ctx, int best_stream_index);
+
     /*
 
     @purpose        Returns the size in kilobytes needed to store the uncompressed audiofile 
@@ -177,9 +179,31 @@ namespace Atlas
 */
     [[nodiscard]] constexpr std::size_t GetAudioFileSize(const AVFormatContext* codec) noexcept;
 
+/*
+
+@purpose        Decodes an audio file packet into it's equivalent uncompressed frame.
+                
+@param:         [in]                const AVCodecContext*       FormatContext used to decode packet. 
+
+@param:         [in]                AVPacket*                   Packet containing uncompressed audio data. 
+
+*/
+
     void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet);
 
 
-    std::ostream& operator<<(std::ostream& o, AVFrame frame);
+/*
+
+@purpose        OO Utility for printing out AVFrame
+                
+*/
+    std::ostream& operator<<(std::ostream& o, AVFrame* frame);
+
+/*
+
+@purpose        OO Utility for printing out AVFrameBufferRef
+                
+*/
+    std::ostream& operator<<(std::ostream& o, AVBufferRef* buf);
 }
 

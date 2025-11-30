@@ -144,19 +144,33 @@ namespace Atlas
 
     void DecodeAudioPacket(AVCodecContext* decoder_ctx, AVPacket* packet)
     {
+        int audio_frame_count = 0;
         AVFrame*  Frame  { av_frame_alloc() };
         if(!Frame)
         {
-            std::cout << "Failed to allcoate frame" << std::endl; 
+            std::cout << "An Error occured while allocating the frame" << std::endl;
+            return; 
         }
 
-        if(avcodec_send_packet(decoder_ctx, packet) == 0)
+        int ret = avcodec_send_packet(decoder_ctx, packet);
+
+        if(ret < 0)
         {
-            while(avcodec_receive_frame(decoder_ctx, Frame) == 0)
-            {
-                std::cout << Frame ;
-            }
-            std::cout << std::endl; 
+            std::cout << "An Error occured while sending the packet" << std::endl;
+            return; 
+        }
+
+        while(avcodec_receive_frame(decoder_ctx, Frame) == 0)
+        {
+
+            size_t unpadded_linesize = Frame->nb_samples * av_get_bytes_per_sample((enum AVSampleFormat) Frame->format);
+            printf("audio_frame n:%d nb_samples:%d pts:%s\n",
+                audio_frame_count++, Frame->nb_samples,
+                av_ts2timestr(Frame->pts, &decoder_ctx->time_base));
+
+
+            std::cout << unpadded_linesize << std::endl; 
+            av_frame_unref(Frame);
         }
     }
 
@@ -164,10 +178,24 @@ namespace Atlas
     {
         for(std::size_t i; i < AV_NUM_DATA_POINTERS; i++)
         {
-            // o << std::format(
-            //                  "Data Location: {}\n Linesize: {}",
-            //                  static_cast<void*>(frame->data[i]),
-            //                  frame->linesize[i]
-            //                  );
+            o << std::format(
+                             "Data Location: {}\n Linesize: {}",
+                             static_cast<void*>(frame->data[i]),
+                             frame->linesize[i]
+                             );
 
-            o << std:
+        }
+        return o; 
+    }
+
+    std::ostream& operator<<(std::ostream& o, AVBufferRef* buf)
+    {
+        o << std::format(
+                         "Location: {}\nSize: {}\n",
+                         static_cast<void*>(buf->data),
+                         buf->size
+                         );
+        return o;
+    }
+
+}

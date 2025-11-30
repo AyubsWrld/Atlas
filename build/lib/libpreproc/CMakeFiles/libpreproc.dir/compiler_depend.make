@@ -286,6 +286,7 @@ lib/libpreproc/CMakeFiles/libpreproc.dir/pcm.cpp.o: /mnt/e/Atlas/lib/libpreproc/
   /usr/include/libavutil/pixfmt.h \
   /usr/include/libavutil/rational.h \
   /usr/include/libavutil/samplefmt.h \
+  /usr/include/libavutil/timestamp.h \
   /usr/include/libavutil/version.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
@@ -382,6 +383,8 @@ lib/libpreproc/CMakeFiles/libpreproc.dir/pcm.cpp.o: /mnt/e/Atlas/lib/libpreproc/
 /usr/include/c++/15.2.1/bits/locale_conv.h:
 
 /usr/include/assert.h:
+
+/usr/include/libavutil/timestamp.h:
 
 /usr/include/c++/15.2.1/cstdio:
 

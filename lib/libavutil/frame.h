@@ -595,6 +595,7 @@ typedef struct AVFrame {
      * this array. Then the extra AVBufferRef pointers are stored in the
      * extended_buf array.
      */
+    
     AVBufferRef *buf[AV_NUM_DATA_POINTERS];
 
     /**
