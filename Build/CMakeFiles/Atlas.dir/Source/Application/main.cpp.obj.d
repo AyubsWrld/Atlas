@@ -495,7 +495,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/istream \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/istream.tcc \
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3++.h \
+ /usr/x86_64-w64-mingw32/include/z3++.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cassert \
  /usr/x86_64-w64-mingw32/include/assert.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/memory \
@@ -517,18 +517,18 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/out_ptr.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/glue_memory_defs.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/execution_defs.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3.h \
+ /usr/x86_64-w64-mingw32/include/z3.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_macros.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_api.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_ast_containers.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_algebraic.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_polynomial.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_rcf.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_fixedpoint.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_optimization.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_fpa.h \
- /root/projects/Atlas/Tools/Z3/mingw64/include/z3_spacer.h \
+ /usr/x86_64-w64-mingw32/include/z3_macros.h \
+ /usr/x86_64-w64-mingw32/include/z3_api.h \
+ /usr/x86_64-w64-mingw32/include/z3_ast_containers.h \
+ /usr/x86_64-w64-mingw32/include/z3_algebraic.h \
+ /usr/x86_64-w64-mingw32/include/z3_polynomial.h \
+ /usr/x86_64-w64-mingw32/include/z3_rcf.h \
+ /usr/x86_64-w64-mingw32/include/z3_fixedpoint.h \
+ /usr/x86_64-w64-mingw32/include/z3_optimization.h \
+ /usr/x86_64-w64-mingw32/include/z3_fpa.h \
+ /usr/x86_64-w64-mingw32/include/z3_spacer.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/functional \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_function.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map \

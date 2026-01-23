@@ -1,1 +1,1 @@
--I/root/projects/Atlas/Tools/Z3/mingw64/include -I/root/projects/Atlas/Source/PowerManagement/Public -I/root/projects/Atlas/Source/Process/Public
+-I/root/projects/Atlas/Source/PowerManagement/Public -I/root/projects/Atlas/Source/Process/Public
