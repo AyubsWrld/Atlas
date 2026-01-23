@@ -20,13 +20,8 @@ target_link_libraries(Atlas
 if (WIN32)
     message(STATUS "Cross Compiling for Windows")
     
-    # Add Z3 include directory
-    target_include_directories(Atlas
-        PRIVATE
-            ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/include
-    )
-    
     # Link against your local Z3 DLL import library (NOT the system one)
+   
     target_link_libraries(Atlas
         PRIVATE
             ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/lib/libz3.dll.a
