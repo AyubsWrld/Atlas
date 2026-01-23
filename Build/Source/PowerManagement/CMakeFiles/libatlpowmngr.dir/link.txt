@@ -1,0 +1,2 @@
+/usr/sbin/x86_64-w64-mingw32-ar qc liblibatlpowmngr.a CMakeFiles/libatlpowmngr.dir/Private/PowerManager.cpp.obj CMakeFiles/libatlpowmngr.dir/Private/ipm_min_impl.cpp.obj CMakeFiles/libatlpowmngr.dir/Private/WMIHelper.cpp.obj
+/usr/sbin/x86_64-w64-mingw32-ranlib liblibatlpowmngr.a

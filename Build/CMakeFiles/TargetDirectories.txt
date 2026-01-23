@@ -1,0 +1,9 @@
+/root/projects/Atlas/Build/CMakeFiles/Atlas.dir
+/root/projects/Atlas/Build/CMakeFiles/edit_cache.dir
+/root/projects/Atlas/Build/CMakeFiles/rebuild_cache.dir
+/root/projects/Atlas/Build/Source/PowerManagement/CMakeFiles/libatlpowmngr.dir
+/root/projects/Atlas/Build/Source/PowerManagement/CMakeFiles/edit_cache.dir
+/root/projects/Atlas/Build/Source/PowerManagement/CMakeFiles/rebuild_cache.dir
+/root/projects/Atlas/Build/Source/Process/CMakeFiles/libatlproc.dir
+/root/projects/Atlas/Build/Source/Process/CMakeFiles/edit_cache.dir
+/root/projects/Atlas/Build/Source/Process/CMakeFiles/rebuild_cache.dir

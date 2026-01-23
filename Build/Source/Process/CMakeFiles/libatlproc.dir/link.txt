@@ -1,0 +1,2 @@
+/usr/sbin/x86_64-w64-mingw32-ar qc liblibatlproc.a CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj CMakeFiles/libatlproc.dir/Private/ProcCommon.cpp.obj CMakeFiles/libatlproc.dir/Private/Win32Process.cpp.obj CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj
+/usr/sbin/x86_64-w64-mingw32-ranlib liblibatlproc.a

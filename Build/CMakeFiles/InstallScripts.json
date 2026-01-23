@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/projects/Atlas/Build/cmake_install.cmake",
+		"/root/projects/Atlas/Build/Source/PowerManagement/cmake_install.cmake",
+		"/root/projects/Atlas/Build/Source/Process/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
