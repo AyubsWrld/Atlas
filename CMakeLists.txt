@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 4.2.1)
 project(Atlas LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 23)
@@ -17,13 +17,19 @@ target_link_libraries(Atlas
         libatlproc
 )
 
-message(STATUS "${CMKAE_SOURCE_DIR}")
-
 if (WIN32)
-    set(CMAKE_FIND_LIBRARY_PREFIXES "lib" "")
-    set(CMAKE_FIND_LIBRARY_SUFFIXES ".lib" ".dll.lib" ".a")
+    message(STATUS "Cross Compiling for Windows")
+    
+    # Add Z3 include directory
+    target_include_directories(Atlas
+        PRIVATE
+            ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/include
+    )
+    
+    # Link against your local Z3 DLL import library (NOT the system one)
     target_link_libraries(Atlas
         PRIVATE
+            ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/lib/libz3.dll.a
             kernel32
             user32
             gdi32
@@ -41,31 +47,25 @@ if (WIN32)
             shlwapi
     )
     
-    set(Z3_ROOT ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw_x86_64-win)
-    set(Z3_LIBRARY ${Z3_ROOT}/bin/libz3.dll.a)
-    
-    if(NOT EXISTS ${Z3_LIBRARY})
-        message(FATAL_ERROR "Z3 library not found: ${Z3_LIBRARY}")
-    endif()
-    
-    target_link_libraries(Atlas PRIVATE ${Z3_LIBRARY})
-    target_include_directories(Atlas PRIVATE ${Z3_ROOT}/include)
-    
-    # add_custom_command(TARGET Atlas POST_BUILD
-    #     COMMAND ${CMAKE_COMMAND} -E copy_if_different
-    #         ${Z3_ROOT}/bin/libz3.dll
-    #         $<TARGET_FILE_DIR:Atlas>
-    # )
+    add_custom_command(TARGET Atlas POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/bin/libz3.dll"
+            "$<TARGET_FILE_DIR:Atlas>"
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "/usr/x86_64-w64-mingw32/bin/libwinpthread-1.dll"
+            "$<TARGET_FILE_DIR:Atlas>"
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "/usr/x86_64-w64-mingw32/bin/libgcc_s_seh-1.dll"
+            "$<TARGET_FILE_DIR:Atlas>"
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "/usr/x86_64-w64-mingw32/bin/libstdc++-6.dll"
+            "$<TARGET_FILE_DIR:Atlas>"
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "/usr/x86_64-w64-mingw32/bin/libgomp-1.dll"
+            "$<TARGET_FILE_DIR:Atlas>"
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "/usr/x86_64-w64-mingw32/bin/libgmp-10.dll"
+            "$<TARGET_FILE_DIR:Atlas>"
+        COMMENT "Copying runtime DLLs to output directory"
+    )
 endif()
-
-if (CMAKE_CROSSCOMPILING)
-  if (CMAKE_SYSTEM_NAME EQUAL Windows)
-      message(STATUS "Cross Compiling")
-  endif()
-endif()
-
-target_compile_definitions(Atlas
-    PRIVATE
-        _GNU_SOURCE
-        EXPERIMENTAL_KEY_INSTRUCTIONS
-)

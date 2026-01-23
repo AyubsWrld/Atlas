@@ -5,24 +5,26 @@
 #include "ProcCommon.h"
 #include "z3++.h"
 
+//#define _NO_CRT_STDIO_INLINE
+
 void demorgan() {
     std::cout << "de-Morgan example\n";
     
-    context c;
+    z3::context c;
 
-    expr x = c.bool_const("x");
-    expr y = c.bool_const("y");
-    expr conjecture = (!(x && y)) == (!x || !y);
+    z3::expr x = c.bool_const("x");
+    z3::expr y = c.bool_const("y");
+    z3::expr conjecture = (!(x && y)) == (!x || !y);
     
-    solver s(c);
+    z3::solver s(c);
     // adding the negation of the conjecture as a constraint.
     s.add(!conjecture);
     std::cout << s << "\n";
     std::cout << s.to_smt2() << "\n";
     switch (s.check()) {
-    case unsat:   std::cout << "de-Morgan is valid\n"; break;
-    case sat:     std::cout << "de-Morgan is not valid\n"; break;
-    case unknown: std::cout << "unknown\n"; break;
+    case z3::unsat:   std::cout << "de-Morgan is valid\n"; break;
+    case z3::sat:     std::cout << "de-Morgan is not valid\n"; break;
+    case z3::unknown: std::cout << "unknown\n"; break;
     }
 }
 
@@ -62,16 +64,16 @@ int main()
     IProcess* Process = SpawnProcess( "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" );
     if ( Process )
     {
-        ::wprintf(L"It worked\n");
+        ::wprintf(L"Successfully spawned process\n");
     }
 
-    int x; 
-    std::cin >> x; 
 
+    int x; std::cin >> x; 
     bool xx = Process->TerminateProcess();
-
-
-    xx ? ::wprintf(L"Termination Successfully\n") : ::wprintf(L"Termination Failed: 0x%x\n", ::GetLastError()) ;
     Process->IProcess::~IProcess();
+
+
+    demorgan();
+
     return EXIT_SUCCESS;
 }

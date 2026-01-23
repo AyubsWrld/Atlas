@@ -92,6 +92,13 @@ all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/Atlas/Build/CMakeFiles 0
 .PHONY : all
 
+# The main codegen target
+codegen: cmake_check_build_system
+	cd /root/projects/Atlas/Build && $(CMAKE_COMMAND) -E cmake_progress_start /root/projects/Atlas/Build/CMakeFiles /root/projects/Atlas/Build/Source/PowerManagement//CMakeFiles/progress.marks
+	cd /root/projects/Atlas/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Source/PowerManagement/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/Atlas/Build/CMakeFiles 0
+.PHONY : codegen
+
 # The main clean target
 clean:
 	cd /root/projects/Atlas/Build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Source/PowerManagement/clean
@@ -208,6 +215,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... libatlpowmngr"
