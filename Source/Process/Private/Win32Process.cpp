@@ -1,4 +1,5 @@
 #include "Win32Process.h"
+#include <accctrl.h>
 #include <handleapi.h>
 
 namespace Atlas::System::Process 
@@ -35,17 +36,55 @@ namespace Atlas::System::Process
 
     bool  Win32Process::TerminateProcess() 
     { 
+        /* Query process handle information */
+       
+        // Don't need to set size; 
+        PSECURITY_DESCRIPTOR pSecurityDescriptor = NULL;
+        DWORD dSuccess = ::GetSecurityInfo(
+                Attributes->Handle,
+                SE_KERNEL_OBJECT,
+                SCOPE_SECURITY_INFORMATION,
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                &pSecurityDescriptor
+                );
+
+        if (dSuccess != ERROR_SUCCESS)
+        {
+            ::wprintf(L"Failed to retrieve security information 0x%x\n", Attributes.get()->Handle);
+            _tprintf(TEXT("GetSecurityInfo error = %d\n"), GetLastError());
+            return{}; 
+        }
+
+        
+        SECURITY_DESCRIPTOR* SecurityDescriptor = (SECURITY_DESCRIPTOR*)pSecurityDescriptor;
+
+        ::wprintf(L"Retreived Security Descriptor: %d\n", SecurityDescriptor->Control);
+        ::wprintf(L"Terminating Processs with handle 0x%x\n", Attributes.get()->Handle);
         if (Attributes->Handle == INVALID_HANDLE_VALUE) 
         {
-            ::printf("It didn't terminate\n");
+            ::wprintf(L"Invalid Handle\n");
             return false; 
         }
-        return !(::TerminateProcess(Attributes->Handle, 0)); 
+
+        if (::TerminateProcess(Attributes->Handle, -1) > 0)
+        {
+            ::wprintf(L"Failed to Terminate Processs With handle 0x%x\n", Attributes->Handle);
+        }
+
+        ::LocalFree(pSecurityDescriptor);
+        return {}; 
     }
 
     Win32Process::~Win32Process() 
     {
-
+        bool success = Win32Process::TerminateProcess(); 
+        if (success)
+        {
+            printf("[%s] Successfully terminated process\n, 0x%x", __PRETTY_FUNCTION__, GetLastError());
+        }
         printf("[%s]\n", __PRETTY_FUNCTION__);
         ::CloseHandle(Attributes->Handle);
         ::CloseHandle(Attributes->ThreadHandle);

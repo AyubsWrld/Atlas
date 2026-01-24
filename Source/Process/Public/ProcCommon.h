@@ -1,6 +1,7 @@
 #pragma once
 #include "IProcess.h"
 #include <processthreadsapi.h>
+#include <memory>
 
 
 namespace Atlas::System::Process 
@@ -122,24 +123,24 @@ namespace Atlas::System::Process
 
 #endif
 
-    STARTUPINFO          CreateStartupInfo();
-    PROCESS_INFORMATION  CreateProcessInfo();
-    IProcess*            GetProcessByPID(UINT64 PID);
-    const TCHAR*         EnumerateProcesses();
-    IProcess*            SpawnProcess(LPCSTR ProcessName);
+    STARTUPINFO                                 CreateStartupInfo();
+    PROCESS_INFORMATION                         CreateProcessInfo();
+    IProcess*                                   GetProcessByPID(UINT64 PID);
+    const TCHAR*                                EnumerateProcesses();
+    std::shared_ptr<IProcess>                   SpawnProcess(LPCSTR ProcessName);
     
     namespace Impl 
     {
 #ifdef _WIN32
-        IProcess*      GetProcessByPID_Win32(UINT64 PID);
-        const TCHAR*   EnumerateProcesses_Win32();
-        IProcess*      SpawnProcess_Win32(LPCSTR ProcessName);
+        IProcess*                               GetProcessByPID_Win32(UINT64 PID);
+        const TCHAR*                            EnumerateProcesses_Win32();
+        std::shared_ptr<IProcess>               SpawnProcess_Win32(LPCSTR ProcessName);
 #endif
             
 #ifdef __linux__
-        IProcess*      GetProcessByPID_Linux(UINT64 PID);
-        const TCHAR*   EnumerateProcesses_Linux();
-        IProcess*      SpawnProcess_Linux(LPCSTR ProcessName);
+        IProcess*                               GetProcessByPID_Linux(UINT64 PID);
+        const TCHAR*                            EnumerateProcesses_Linux();
+        std::shared_ptr<IProcess>               SpawnProcess_Linux(LPCSTR ProcessName);
 #endif
     }
 }

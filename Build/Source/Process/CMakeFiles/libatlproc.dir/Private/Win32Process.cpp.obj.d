@@ -313,6 +313,8 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/Win32Process.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/psapi.h \
  /usr/x86_64-w64-mingw32/include/shlwapi.h \
  /usr/x86_64-w64-mingw32/include/shtypes.h \
+ /usr/x86_64-w64-mingw32/include/aclapi.h \
+ /usr/x86_64-w64-mingw32/include/accctrl.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/memory \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/memoryfwd.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/allocator.h \

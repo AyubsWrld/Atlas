@@ -1,6 +1,5 @@
 #pragma once
 #include "ProcCommon.h"
-#include <memory>
 
 namespace Atlas::System::Process 
 {

@@ -1,5 +1,6 @@
 #include "Win32Process.h"
 #include <iostream>
+#include <processthreadsapi.h>
 #include <type_traits>
 #include <cstdio>
 
@@ -43,7 +44,7 @@ namespace Atlas::System::Process::Impl
      * Implications of using wchar_t as opposed to char
      */
     
-    IProcess* SpawnProcess_Win32(LPCSTR ProcessName)
+    std::shared_ptr<IProcess>   SpawnProcess_Win32(LPCSTR ProcessName)
     {
         if (!ProcessName || !::PathFileExistsA(ProcessName)) 
         {
@@ -69,14 +70,14 @@ namespace Atlas::System::Process::Impl
         ::PROCESS_INFORMATION   pInfo           { CreateProcessInfo() };
         
         if (!::CreateProcessA(
-                NULL,                   // use lpCommandLine instead
-                (LPSTR)ProcessName,    // cast mutable for CreateProcessA)
-                NULL,                   // process security attributes
-                NULL,                   // thread security attributes
-                FALSE,                  // inherit handles
+                NULL,                               // use lpCommandLine instead
+                const_cast<LPSTR>(ProcessName),     // cast mutable for CreateProcessA
+                NULL,                               // process security attributes
+                NULL,                               // thread security attributes
+                FALSE,                              // inherit handles
                 NORMAL_PRIORITY_CLASS,
-                NULL,                   // environment
-                NULL,                   // current directory
+                NULL,                               // environment
+                NULL,                               // current directory
                 &sInfo,
                 &pInfo))
         {
@@ -90,8 +91,7 @@ namespace Atlas::System::Process::Impl
         // inside of GetProcessAttributes. 
       
         FWinProc ProcessAttributes(pInfo); 
-
-        return new Win32Process{ProcessAttributes};
+        return std::make_shared<Win32Process>(ProcessAttributes);
     }
 
     FWinProc GetProcessAttributes(HANDLE ProcessHandle)

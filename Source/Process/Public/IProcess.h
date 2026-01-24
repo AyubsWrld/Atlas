@@ -9,6 +9,7 @@
     #include <winnt.h>
     #include <processthreadsapi.h>
     #include <shlwapi.h>
+    #include <aclapi.h>
 #elif defined(__linux__)
     #include <spawn.h>
 #endif

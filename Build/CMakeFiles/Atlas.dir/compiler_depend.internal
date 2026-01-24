@@ -3,10 +3,9 @@
 
 CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /root/projects/Atlas/Source/Application/main.cpp
- /root/projects/Atlas/Source/PowerManagement/Public/PowerManager.h
- /root/projects/Atlas/Source/PowerManagement/Public/WMIHelper.h
  /root/projects/Atlas/Source/Process/Public/IProcess.h
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h
+ /root/projects/Atlas/Source/Process/Public/Win32Process.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h
@@ -140,6 +139,8 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/_mingw_stdarg.h
  /usr/x86_64-w64-mingw32/include/_mingw_unicode.h
  /usr/x86_64-w64-mingw32/include/_timeval.h
+ /usr/x86_64-w64-mingw32/include/accctrl.h
+ /usr/x86_64-w64-mingw32/include/aclapi.h
  /usr/x86_64-w64-mingw32/include/apiset.h
  /usr/x86_64-w64-mingw32/include/apisetcconv.h
  /usr/x86_64-w64-mingw32/include/assert.h
@@ -262,7 +263,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdint
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdio
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdlib
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstring
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/ctime
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cwchar
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cwctype
@@ -319,16 +319,9 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h
  /usr/x86_64-w64-mingw32/include/cderr.h
- /usr/x86_64-w64-mingw32/include/cfg.h
- /usr/x86_64-w64-mingw32/include/cfgmgr32.h
  /usr/x86_64-w64-mingw32/include/cguid.h
  /usr/x86_64-w64-mingw32/include/combaseapi.h
- /usr/x86_64-w64-mingw32/include/comdef.h
- /usr/x86_64-w64-mingw32/include/comdefsp.h
- /usr/x86_64-w64-mingw32/include/comip.h
- /usr/x86_64-w64-mingw32/include/commctrl.h
  /usr/x86_64-w64-mingw32/include/commdlg.h
- /usr/x86_64-w64-mingw32/include/comutil.h
  /usr/x86_64-w64-mingw32/include/concurrencysal.h
  /usr/x86_64-w64-mingw32/include/consoleapi.h
  /usr/x86_64-w64-mingw32/include/consoleapi2.h
@@ -343,12 +336,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/datetimeapi.h
  /usr/x86_64-w64-mingw32/include/dde.h
  /usr/x86_64-w64-mingw32/include/ddeml.h
- /usr/x86_64-w64-mingw32/include/ddk/ndisguid.h
  /usr/x86_64-w64-mingw32/include/debugapi.h
- /usr/x86_64-w64-mingw32/include/devguid.h
- /usr/x86_64-w64-mingw32/include/devpkey.h
- /usr/x86_64-w64-mingw32/include/devpropdef.h
- /usr/x86_64-w64-mingw32/include/dispex.h
  /usr/x86_64-w64-mingw32/include/dlgs.h
  /usr/x86_64-w64-mingw32/include/dpapi.h
  /usr/x86_64-w64-mingw32/include/driverspecs.h
@@ -361,13 +349,10 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/guiddef.h
  /usr/x86_64-w64-mingw32/include/handleapi.h
  /usr/x86_64-w64-mingw32/include/heapapi.h
- /usr/x86_64-w64-mingw32/include/ifdef.h
  /usr/x86_64-w64-mingw32/include/imm.h
  /usr/x86_64-w64-mingw32/include/inaddr.h
- /usr/x86_64-w64-mingw32/include/initguid.h
  /usr/x86_64-w64-mingw32/include/interlockedapi.h
  /usr/x86_64-w64-mingw32/include/ioapiset.h
- /usr/x86_64-w64-mingw32/include/ipifcons.h
  /usr/x86_64-w64-mingw32/include/jobapi.h
  /usr/x86_64-w64-mingw32/include/joystickapi.h
  /usr/x86_64-w64-mingw32/include/ktmtypes.h
@@ -391,18 +376,13 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/namespaceapi.h
  /usr/x86_64-w64-mingw32/include/nb30.h
  /usr/x86_64-w64-mingw32/include/ncrypt.h
- /usr/x86_64-w64-mingw32/include/new.h
- /usr/x86_64-w64-mingw32/include/ntddndis.h
  /usr/x86_64-w64-mingw32/include/oaidl.h
  /usr/x86_64-w64-mingw32/include/objbase.h
  /usr/x86_64-w64-mingw32/include/objidl.h
  /usr/x86_64-w64-mingw32/include/objidlbase.h
- /usr/x86_64-w64-mingw32/include/ocidl.h
  /usr/x86_64-w64-mingw32/include/ole2.h
  /usr/x86_64-w64-mingw32/include/oleauto.h
- /usr/x86_64-w64-mingw32/include/olectl.h
  /usr/x86_64-w64-mingw32/include/oleidl.h
- /usr/x86_64-w64-mingw32/include/pciprop.h
  /usr/x86_64-w64-mingw32/include/playsoundapi.h
  /usr/x86_64-w64-mingw32/include/poppack.h
  /usr/x86_64-w64-mingw32/include/process.h
@@ -455,7 +435,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/securityappcontainer.h
  /usr/x86_64-w64-mingw32/include/securitybaseapi.h
  /usr/x86_64-w64-mingw32/include/servprov.h
- /usr/x86_64-w64-mingw32/include/setupapi.h
  /usr/x86_64-w64-mingw32/include/shellapi.h
  /usr/x86_64-w64-mingw32/include/shlwapi.h
  /usr/x86_64-w64-mingw32/include/shtypes.h
@@ -488,11 +467,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/utilapiset.h
  /usr/x86_64-w64-mingw32/include/vadefs.h
  /usr/x86_64-w64-mingw32/include/virtdisk.h
- /usr/x86_64-w64-mingw32/include/wbemcli.h
- /usr/x86_64-w64-mingw32/include/wbemdisp.h
- /usr/x86_64-w64-mingw32/include/wbemidl.h
- /usr/x86_64-w64-mingw32/include/wbemprov.h
- /usr/x86_64-w64-mingw32/include/wbemtran.h
  /usr/x86_64-w64-mingw32/include/wchar.h
  /usr/x86_64-w64-mingw32/include/wctype.h
  /usr/x86_64-w64-mingw32/include/winapifamily.h
@@ -501,7 +475,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/wincontypes.h
  /usr/x86_64-w64-mingw32/include/wincrypt.h
  /usr/x86_64-w64-mingw32/include/windef.h
- /usr/x86_64-w64-mingw32/include/windot11.h
  /usr/x86_64-w64-mingw32/include/windows.h
  /usr/x86_64-w64-mingw32/include/winefs.h
  /usr/x86_64-w64-mingw32/include/winerror.h
@@ -519,7 +492,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/winsvc.h
  /usr/x86_64-w64-mingw32/include/winuser.h
  /usr/x86_64-w64-mingw32/include/winver.h
- /usr/x86_64-w64-mingw32/include/wlantypes.h
  /usr/x86_64-w64-mingw32/include/wnnc.h
  /usr/x86_64-w64-mingw32/include/wow64apiset.h
  /usr/x86_64-w64-mingw32/include/wtypes.h

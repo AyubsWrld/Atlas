@@ -55,7 +55,7 @@ namespace Atlas::System::Process::Impl
         return{}; 
     }
 
-    IProcess* SpawnProcess_Linux(LPCSTR ProcesssName)
+    std::shared_ptr<IProcess>   SpawnProcess_Linux(LPCSTR ProcessName)
     {
         return{};
     }

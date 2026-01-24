@@ -33,5 +33,5 @@ namespace Atlas::System::Process
     std::uint64_t IProcess::WorkingSetSize() const { return 0; }
 
     bool    IProcess::TerminateProcess() { return false; }
-        
+
 }

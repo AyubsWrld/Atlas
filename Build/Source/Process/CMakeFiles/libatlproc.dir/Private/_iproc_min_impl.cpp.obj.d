@@ -310,4 +310,6 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/sec_api/tchar_s.h \
  /usr/x86_64-w64-mingw32/include/psapi.h \
  /usr/x86_64-w64-mingw32/include/shlwapi.h \
- /usr/x86_64-w64-mingw32/include/shtypes.h
+ /usr/x86_64-w64-mingw32/include/shtypes.h \
+ /usr/x86_64-w64-mingw32/include/aclapi.h \
+ /usr/x86_64-w64-mingw32/include/accctrl.h

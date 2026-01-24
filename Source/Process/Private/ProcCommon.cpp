@@ -40,7 +40,7 @@ namespace Atlas::System::Process
         #endif 
     }
 
-    IProcess* SpawnProcess(LPCSTR ProcessName)
+    std::shared_ptr<IProcess>   SpawnProcess(LPCSTR ProcessName)
     {
     #if defined(_WIN32)
         return Impl::SpawnProcess_Win32(ProcessName);

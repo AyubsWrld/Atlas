@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.2.1)
+cmake_minimum_required(VERSION 3.2...4.2)
 project(Atlas LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 23)
@@ -24,8 +24,9 @@ if (WIN32)
    
     target_link_libraries(Atlas
         PRIVATE
-            ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/lib/libz3.dll.a
+            # ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/lib/libz3.dll.a
             kernel32
+            ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/lib/libz3.dll.a
             user32
             gdi32
             winspool
@@ -64,3 +65,5 @@ if (WIN32)
         COMMENT "Copying runtime DLLs to output directory"
     )
 endif()
+
+
