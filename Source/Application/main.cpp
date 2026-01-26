@@ -28,14 +28,16 @@ void demorgan() {
 int main()
 {
     using namespace Atlas::System::Process;
-
     sscanf(NULL, NULL);
-    std::shared_ptr<Win32Process> Process = std::dynamic_pointer_cast<Win32Process>(SpawnProcess( "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" )); 
+    
+    // Unneeded as what was constructed was a Win32Process
+    // std::shared_ptr<Win32Process> Process = std::dynamic_pointer_cast<Win32Process>(SpawnProcess( "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" )); 
+    
+    std::shared_ptr<IProcess> Process = SpawnProcess( "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" ); 
     if ( Process )
     {
         ::wprintf(L"Successfully spawned process\n");
     }
-
     int x; std::cin >> x; 
     return EXIT_SUCCESS;
 }

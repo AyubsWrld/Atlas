@@ -36,8 +36,6 @@ namespace Atlas::System::Process
 
     bool  Win32Process::TerminateProcess() 
     { 
-        /* Query process handle information */
-       
         // Don't need to set size; 
         PSECURITY_DESCRIPTOR pSecurityDescriptor = NULL;
         DWORD dSuccess = ::GetSecurityInfo(
@@ -58,7 +56,6 @@ namespace Atlas::System::Process
             return{}; 
         }
 
-        
         SECURITY_DESCRIPTOR* SecurityDescriptor = (SECURITY_DESCRIPTOR*)pSecurityDescriptor;
 
         ::wprintf(L"Retreived Security Descriptor: %d\n", SecurityDescriptor->Control);

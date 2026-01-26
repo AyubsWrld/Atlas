@@ -1,8 +1,13 @@
 #include "Win32Process.h"
+#include <accctrl.h>
+#include <cstdlib>
 #include <iostream>
+#include <minwinbase.h>
 #include <processthreadsapi.h>
 #include <type_traits>
 #include <cstdio>
+#include <winerror.h>
+#include <winnt.h>
 
 #define TOWCHAR(X) \
     static_assert(std::is_same_v<char*, std:remove_cv<decltype(X)>>)
@@ -43,7 +48,73 @@ namespace Atlas::System::Process::Impl
     /* 
      * Implications of using wchar_t as opposed to char
      */
-    
+  
+    DWORD _SetSecurityDescriptor(HANDLE Handle)
+    {
+        DWORD   dwResult                {}; 
+        DWORD   dwDisposition           {}; 
+        PSID    pEveryoneSID            {NULL};
+        PACL    pAccessControlList      {NULL};
+        PSECURITY_DESCRIPTOR pSecDesc   {NULL};
+        EXPLICIT_ACCESS ExpicitAccess   {};
+
+        SID_IDENTIFIER_AUTHORITY SIDAuthWorld   {SECURITY_WORLD_SID_AUTHORITY};
+        SECURITY_ATTRIBUTES sa;
+
+        LONG lRes;
+        HKEY hkSub = NULL;
+
+        auto Guard = std::unique_ptr<DWORD, std::function<void(DWORD*)>>{&dwResult, [&](DWORD*){ delete s; } };
+
+        /* Capture within context of the struct */ 
+
+        // TODO: Implement https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0052r10.pdf
+        // struct 
+        // {
+        //     void(*Callable)(){nullptr};
+        //     ~(){ if(Callable){ Callable(); }}
+        // } _deferred { /* Some lambda that captures & performs cleanup */ }; 
+
+        /* 
+            Allocates and initializez a Security Identifier for 
+            EVERYONE. Give read access as well.  
+TODO:       Make this more granular.
+         */
+        
+        if (!::AllocateAndInitializeSid(
+                    &SIDAuthWorld,
+                    1,
+                    SECURITY_WORLD_RID,
+                    0, 0, 0, 0, 0, 0, 0,
+                    &pEveryoneSID))
+        {
+            ::_tprintf(_T("AllocateAndInitializeSid Error 0x%x\n"), GetLastError());
+            return !ERROR_SUCCESS; // TODO: use different sentinel value. 
+            // Cleanup 
+        }
+
+        ::ZeroMemory(&ExpicitAccess, sizeof(EXPLICIT_ACCESS));
+
+        ExpicitAccess.grfAccessPermissions = KEY_WRITE  ; // 
+        ExpicitAccess.grfAccessMode = SET_ACCESS        ;
+        ExpicitAccess.grfInheritance= NO_INHERITANCE;
+
+        ExpicitAccess.Trustee.TrusteeForm = TRUSTEE_IS_SID;
+        ExpicitAccess.Trustee.TrusteeType = TRUSTEE_IS_WELL_KNOWN_GROUP;
+        ExpicitAccess.Trustee.ptstrName  = (LPTSTR) pEveryoneSID;
+
+        pSecDesc = (PSECURITY_DESCRIPTOR) LocalAlloc(LPTR, 
+                                SECURITY_DESCRIPTOR_MIN_LENGTH); 
+
+        if (NULL == pSecDesc)
+        {
+            return !ERROR_SUCCESS; // TODO: use different sentinel value. 
+            // Cleanup 
+        }
+
+        return ERROR_SUCCESS;
+    }
+
     std::shared_ptr<IProcess>   SpawnProcess_Win32(LPCSTR ProcessName)
     {
         if (!ProcessName || !::PathFileExistsA(ProcessName)) 
@@ -62,12 +133,10 @@ namespace Atlas::System::Process::Impl
         
         // check whether what was passed in was an exectuble or not.
         
-        /*  Creates a new process and its primary thread. The new process
-         *  runs in the security context of the calling process. */
-//::LPCSTR                TempProcName    { "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" };
-        
-        ::STARTUPINFOA          sInfo           { CreateStartupInfo() };
-        ::PROCESS_INFORMATION   pInfo           { CreateProcessInfo() };
+        STARTUPINFOA          sInfo           { CreateStartupInfo() };
+        PROCESS_INFORMATION   pInfo           { CreateProcessInfo() };
+        EXPLICIT_ACCESS       eExplAccess     {};
+        SECURITY_DESCRIPTOR   sSecDesc        {};
         
         if (!::CreateProcessA(
                 NULL,                               // use lpCommandLine instead
