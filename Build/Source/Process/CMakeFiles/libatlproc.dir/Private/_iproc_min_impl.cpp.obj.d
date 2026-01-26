@@ -24,6 +24,93 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/stdint.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  /usr/x86_64-w64-mingw32/include/stddef.h \
+ /root/projects/Atlas/Source/Utils/Scope.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdlib \
+ /usr/x86_64-w64-mingw32/include/stdlib.h \
+ /usr/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ /usr/x86_64-w64-mingw32/include/limits.h \
+ /usr/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/stdlib.h \
+ /usr/x86_64-w64-mingw32/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ /usr/x86_64-w64-mingw32/include/errno.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_abs.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/type_traits \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/version.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/concepts \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/utility \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_pair.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/move.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/utility.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/compare \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/initializer_list \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/numeric_traits.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/cpp_type_traits.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/type_traits.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/functional \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_function.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/backward/binders.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/tuple \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/uses_allocator.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/invoke.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_util.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_base.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_iterator.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/iterator_concepts.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ptr_traits.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_cmp.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/new \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/exception.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/exception_defines.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_construct.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/concept_check.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/debug/assertions.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/max_size_type.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/numbers \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/functional_hash.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hash_bytes.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/refwrap.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_function.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/typeinfo \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/functexcept.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/requires_hosted.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unordered_map.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable_policy.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_algobase.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/debug/debug.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/predefined_ops.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bit \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/aligned_buffer.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/alloc_traits.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/alloc_traits.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/memoryfwd.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/allocator.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/new_allocator.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/enable_special_members.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/node_handle.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/range_access.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/erase_if.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/memory_resource.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstddef \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/uses_allocator_args.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_algobase.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_bvector.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/vector.tcc \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/formatfwd.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/array \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/move_only_function.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/mofunc_impl.h \
  /usr/x86_64-w64-mingw32/include/windows.h \
  /usr/x86_64-w64-mingw32/include/sdkddkver.h \
  /usr/x86_64-w64-mingw32/include/excpt.h \
@@ -90,18 +177,6 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/stdlib.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdlib \
- /usr/x86_64-w64-mingw32/include/stdlib.h \
- /usr/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
- /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
- /usr/x86_64-w64-mingw32/include/limits.h \
- /usr/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- /usr/x86_64-w64-mingw32/include/malloc.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_abs.h \
- /usr/x86_64-w64-mingw32/include/errno.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h \

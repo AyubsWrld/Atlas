@@ -5,6 +5,11 @@ target_sources(libatlproc
         Private/_iproc_min_impl.cpp
         Private/ProcCommon.cpp
 )
+target_include_directories(
+    libatlproc
+    PUBLIC
+    ${CMAKE_SOURCE_DIR}/Source/Utils
+)
 
 if(WIN32)
     target_sources(libatlproc PRIVATE

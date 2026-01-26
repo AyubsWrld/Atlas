@@ -1,3 +1,5 @@
 dump.txt
 idea.txt
 Build/
+.MTREE
+.PKGINFO

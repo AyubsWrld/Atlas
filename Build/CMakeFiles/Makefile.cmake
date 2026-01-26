@@ -11,7 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.1/CMakeRCCompiler.cmake"
   "CMakeFiles/4.2.1/CMakeSystem.cmake"
-  "/root/projects/Atlas/CMake/Toolchains/x86_64-w64.cmake"
+  "/root/projects/Atlas/CMake/Toolchains/x86_64-w64-mingw.cmake"
   "/root/projects/Atlas/CMakeLists.txt"
   "/root/projects/Atlas/Source/PowerManagement/CMakeLists.txt"
   "/root/projects/Atlas/Source/Process/CMakeLists.txt"

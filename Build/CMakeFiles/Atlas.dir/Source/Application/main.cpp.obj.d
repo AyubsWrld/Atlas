@@ -184,6 +184,25 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/istream.tcc \
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
  /root/projects/Atlas/Source/Process/Public/IProcess.h \
+ /root/projects/Atlas/Source/Utils/Scope.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/utility \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/functional \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_function.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unordered_map.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable_policy.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/aligned_buffer.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/node_handle.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/erase_if.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_bvector.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/vector.tcc \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/move_only_function.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/mofunc_impl.h \
  /usr/x86_64-w64-mingw32/include/windows.h \
  /usr/x86_64-w64-mingw32/include/sdkddkver.h \
  /usr/x86_64-w64-mingw32/include/excpt.h \
@@ -460,14 +479,12 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/aclapi.h \
  /usr/x86_64-w64-mingw32/include/accctrl.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/memory \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/align.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unique_ptr.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr_base.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/allocated_ptr.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/aligned_buffer.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/concurrence.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr_atomic.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_base.h \
@@ -483,10 +500,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/z3++.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cassert \
  /usr/x86_64-w64-mingw32/include/assert.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_bvector.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/vector.tcc \
  /usr/x86_64-w64-mingw32/include/z3.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
  /usr/x86_64-w64-mingw32/include/z3_macros.h \
@@ -498,14 +511,4 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/z3_fixedpoint.h \
  /usr/x86_64-w64-mingw32/include/z3_optimization.h \
  /usr/x86_64-w64-mingw32/include/z3_fpa.h \
- /usr/x86_64-w64-mingw32/include/z3_spacer.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/functional \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_function.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unordered_map.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable_policy.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/node_handle.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/erase_if.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/move_only_function.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/mofunc_impl.h
+ /usr/x86_64-w64-mingw32/include/z3_spacer.h

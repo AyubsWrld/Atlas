@@ -1,5 +1,6 @@
 #include "Win32Process.h"
 #include <accctrl.h>
+#include <errhandlingapi.h>
 #include <handleapi.h>
 
 namespace Atlas::System::Process 
@@ -34,56 +35,44 @@ namespace Atlas::System::Process
     
     std::uint64_t Win32Process::WorkingSetSize() const { return IProcess::WorkingSetSize(); }
 
-    bool  Win32Process::TerminateProcess() 
+    
+    bool Win32Process::TerminateProcess() 
     { 
-        // Don't need to set size; 
-        PSECURITY_DESCRIPTOR pSecurityDescriptor = NULL;
-        DWORD dSuccess = ::GetSecurityInfo(
-                Attributes->Handle,
-                SE_KERNEL_OBJECT,
-                SCOPE_SECURITY_INFORMATION,
-                NULL,
-                NULL,
-                NULL,
-                NULL,
-                &pSecurityDescriptor
-                );
-
-        if (dSuccess != ERROR_SUCCESS)
+        if (Attributes->Handle == NULL || Attributes->Handle == INVALID_HANDLE_VALUE) 
         {
-            ::wprintf(L"Failed to retrieve security information 0x%x\n", Attributes.get()->Handle);
-            _tprintf(TEXT("GetSecurityInfo error = %d\n"), GetLastError());
-            return{}; 
+            return false; 
         }
-
-        SECURITY_DESCRIPTOR* SecurityDescriptor = (SECURITY_DESCRIPTOR*)pSecurityDescriptor;
-
-        ::wprintf(L"Retreived Security Descriptor: %d\n", SecurityDescriptor->Control);
-        ::wprintf(L"Terminating Processs with handle 0x%x\n", Attributes.get()->Handle);
-        if (Attributes->Handle == INVALID_HANDLE_VALUE) 
+    
+        if (::TerminateProcess(Attributes->Handle, 1))
         {
-            ::wprintf(L"Invalid Handle\n");
+            return true;
+        }
+    
+        DWORD lastError = ::GetLastError();
+        ::wprintf(L"Initial TerminateProcess failed with error 0x%x\n", lastError);
+        
+        if (lastError == ERROR_ACCESS_DENIED)
+        {
+            ::wprintf(L"Trying to open new handle with PROCESS_ALL_ACCESS...\n");
             return false; 
         }
 
-        if (::TerminateProcess(Attributes->Handle, -1) > 0)
-        {
-            ::wprintf(L"Failed to Terminate Processs With handle 0x%x\n", Attributes->Handle);
-        }
-
-        ::LocalFree(pSecurityDescriptor);
-        return {}; 
+        return false; 
     }
-
+    
     Win32Process::~Win32Process() 
     {
-        bool success = Win32Process::TerminateProcess(); 
-        if (success)
-        {
-            printf("[%s] Successfully terminated process\n, 0x%x", __PRETTY_FUNCTION__, GetLastError());
-        }
+        TerminateProcess();
         printf("[%s]\n", __PRETTY_FUNCTION__);
-        ::CloseHandle(Attributes->Handle);
-        ::CloseHandle(Attributes->ThreadHandle);
+        
+        if (Attributes->Handle && Attributes->Handle != INVALID_HANDLE_VALUE)
+        {
+            ::CloseHandle(Attributes->Handle);
+        }
+        
+        if (Attributes->ThreadHandle && Attributes->ThreadHandle != INVALID_HANDLE_VALUE)
+        {
+            ::CloseHandle(Attributes->ThreadHandle);
+        }
     }
 }

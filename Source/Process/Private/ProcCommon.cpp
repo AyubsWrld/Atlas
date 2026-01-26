@@ -68,5 +68,7 @@ namespace Atlas::System::Process
             ThreadId(ProcessInformation.dwThreadId)
     {
         /* Derive rest of the info here using ^ */ 
+  
+        ::wprintf(L"PID: %d\n TID: %d\n", ProcessInformation.dwProcessId, ProcessInformation.hThread);
     }
 }

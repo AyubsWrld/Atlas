@@ -1,6 +1,7 @@
 #pragma once
 #include <ctime>
 #include <cstdint>
+#include "Scope.h"
 
 #if defined(_WIN32)
     #include <windows.h>

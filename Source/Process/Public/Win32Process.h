@@ -112,7 +112,8 @@ namespace Atlas::System::Process
         */
         virtual std::uint64_t WorkingSetSize() const override;
 
-        bool    TerminateProcess() override; 
+        virtual  bool    TerminateProcess() override; 
+
 
         virtual ~Win32Process() override; 
         

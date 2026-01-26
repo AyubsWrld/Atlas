@@ -6,6 +6,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /root/projects/Atlas/Source/Process/Public/IProcess.h
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h
  /root/projects/Atlas/Source/Process/Public/Win32Process.h
+ /root/projects/Atlas/Source/Utils/Scope.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h
@@ -235,6 +236,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_iterator_base_types.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_pair.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_raw_storage_iter.h
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_tempbuf.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h
@@ -304,6 +306,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/type_traits
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/typeinfo
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/utility
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h

@@ -11,17 +11,21 @@ add_subdirectory(Source/Process)
 
 add_executable(Atlas Source/Application/main.cpp)
 
+target_include_directories(Atlas
+    PRIVATE
+    ${CMAKE_SOURCE_DIR}/Source/Utils
+)
+
 target_link_libraries(Atlas
     PRIVATE
         libatlpowmngr
         libatlproc
 )
 
+
 if (WIN32)
     message(STATUS "Cross Compiling for Windows")
     
-    # Link against your local Z3 DLL import library (NOT the system one)
-   
     target_link_libraries(Atlas
         PRIVATE
             # ${CMAKE_SOURCE_DIR}/Tools/Z3/mingw64/lib/libz3.dll.a

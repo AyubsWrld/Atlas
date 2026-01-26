@@ -5,6 +5,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
   /root/projects/Atlas/Source/Process/Public/IProcess.h \
   /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
   /root/projects/Atlas/Source/Process/Public/Win32Process.h \
+  /root/projects/Atlas/Source/Utils/Scope.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
@@ -234,6 +235,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_iterator_base_types.h \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_pair.h \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
+  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_tempbuf.h \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h \
@@ -303,6 +305,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/type_traits \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/typeinfo \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map \
+  /usr/x86_64-w64-mingw32/include/c++/15.2.0/utility \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -737,6 +740,8 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/utility:
+
 /usr/x86_64-w64-mingw32/include/errno.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/unordered_map:
@@ -775,8 +780,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/istream:
 
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/iostream:
-
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/ios:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/initializer_list:
@@ -805,11 +808,11 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstddef:
 
-/usr/x86_64-w64-mingw32/include/rpcnsi.h:
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/format:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/concepts:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/compare:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
 
@@ -973,6 +976,22 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/move.h:
 
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h:
+
+/usr/x86_64-w64-mingw32/include/z3_polynomial.h:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/istream.tcc:
+
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h:
 
 /usr/x86_64-w64-mingw32/include/_mingw_stat64.h:
@@ -1007,13 +1026,31 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h:
 
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
-
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h:
 
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/iostream:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ptr_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdint:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hash_bytes.h:
+
+/root/projects/Atlas/Source/Application/main.cpp:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h:
 
@@ -1093,33 +1130,21 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/alloc_traits.h:
 
-/root/projects/Atlas/Source/Application/main.cpp:
+/usr/x86_64-w64-mingw32/include/rpcnsi.h:
 
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hash_bytes.h:
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/max_size_type.h:
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h:
 
-/usr/x86_64-w64-mingw32/include/z3_polynomial.h:
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/max_size_type.h:
 
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/istream.tcc:
+/usr/x86_64-w64-mingw32/include/process.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/string_conversions.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ptr_traits.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdint:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h:
 
@@ -1145,12 +1170,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h:
 
-/usr/x86_64-w64-mingw32/include/rpcndr.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
-
 /usr/x86_64-w64-mingw32/include/datetimeapi.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h:
@@ -1165,11 +1184,11 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h:
 
-/usr/x86_64-w64-mingw32/include/process.h:
+/usr/x86_64-w64-mingw32/include/rpcndr.h:
 
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/string_conversions.h:
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h:
 
@@ -1186,16 +1205,6 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/allocator.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_algo.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_construct.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h:
 
@@ -1241,6 +1250,10 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_iterator_base_types.h:
 
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
+
 /usr/x86_64-w64-mingw32/include/_mingw.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_cmp.h:
@@ -1270,6 +1283,8 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h:
 
 /usr/x86_64-w64-mingw32/include/aclapi.h:
+
+/root/projects/Atlas/Source/Utils/Scope.h:
 
 /usr/x86_64-w64-mingw32/include/apiset.h:
 
@@ -1514,9 +1529,3 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: /root/projects/Atlas/Sourc
 /usr/x86_64-w64-mingw32/include/z3_api.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/clocale:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/compare:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/format:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/concepts:
