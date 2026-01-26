@@ -8,7 +8,7 @@ target_sources(libatlproc
 target_include_directories(
     libatlproc
     PUBLIC
-    ${CMAKE_SOURCE_DIR}/Source/Utils
+    ${CMAKE_SOURCE_DIR}/Source/Utils/Public
 )
 
 if(WIN32)
@@ -27,6 +27,6 @@ endif()
 target_include_directories(libatlproc
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/Public
-    PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/Private
+    # PRIVATE
+    #     ${CMAKE_CURRENT_SOURCE_DIR}/Private
 )

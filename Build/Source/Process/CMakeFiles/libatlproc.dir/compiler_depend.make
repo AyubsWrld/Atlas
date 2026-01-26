@@ -4,7 +4,7 @@
 Source/Process/CMakeFiles/libatlproc.dir/Private/ProcCommon.cpp.obj: /root/projects/Atlas/Source/Process/Private/ProcCommon.cpp \
   /root/projects/Atlas/Source/Process/Public/IProcess.h \
   /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
-  /root/projects/Atlas/Source/Utils/Scope.h \
+  /root/projects/Atlas/Source/Utils/Public/Scope.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
@@ -475,7 +475,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/Win32Process.cpp.obj: /root/pro
   /root/projects/Atlas/Source/Process/Public/IProcess.h \
   /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
   /root/projects/Atlas/Source/Process/Public/Win32Process.h \
-  /root/projects/Atlas/Source/Utils/Scope.h \
+  /root/projects/Atlas/Source/Utils/Public/Scope.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
@@ -944,7 +944,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/Win32Process.cpp.obj: /root/pro
 
 Source/Process/CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj: /root/projects/Atlas/Source/Process/Private/_iproc_min_impl.cpp \
   /root/projects/Atlas/Source/Process/Public/IProcess.h \
-  /root/projects/Atlas/Source/Utils/Scope.h \
+  /root/projects/Atlas/Source/Utils/Public/Scope.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
@@ -1332,7 +1332,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
   /root/projects/Atlas/Source/Process/Public/IProcess.h \
   /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
   /root/projects/Atlas/Source/Process/Public/Win32Process.h \
-  /root/projects/Atlas/Source/Utils/Scope.h \
+  /root/projects/Atlas/Source/Utils/Public/Scope.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
@@ -1940,10 +1940,6 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 
 /usr/x86_64-w64-mingw32/include/pthread_unistd.h:
 
-/usr/x86_64-w64-mingw32/include/rpc.h:
-
-/usr/x86_64-w64-mingw32/include/pthread_time.h:
-
 /usr/x86_64-w64-mingw32/include/reason.h:
 
 /usr/x86_64-w64-mingw32/include/pthread.h:
@@ -2117,6 +2113,12 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 /usr/x86_64-w64-mingw32/include/pthread_signal.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/type_traits.h:
+
+/usr/x86_64-w64-mingw32/include/rpcnsi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
 
@@ -2296,8 +2298,6 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/node_handle.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
-
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h:
 
 /usr/x86_64-w64-mingw32/include/lzexpand.h:
@@ -2372,6 +2372,8 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/ctime:
 
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/ostream:
@@ -2385,18 +2387,6 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/alloc_traits.h:
-
-/usr/x86_64-w64-mingw32/include/rpcnsi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
-
-/usr/x86_64-w64-mingw32/include/process.h:
-
-/usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/string_conversions.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
 
 /usr/x86_64-w64-mingw32/include/pshpack8.h:
 
@@ -2439,6 +2429,12 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 /root/projects/Atlas/Source/Process/Private/ProcCommon.cpp:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
+
+/usr/x86_64-w64-mingw32/include/rpc.h:
+
+/usr/x86_64-w64-mingw32/include/pthread_time.h:
+
+/root/projects/Atlas/Source/Utils/Public/Scope.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
 
@@ -2485,6 +2481,12 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h:
 
 /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/alloc_traits.h:
+
+/usr/x86_64-w64-mingw32/include/process.h:
+
+/usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/string_conversions.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h:
 
@@ -2575,8 +2577,6 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: /root/
 /usr/x86_64-w64-mingw32/include/_mingw_unicode.h:
 
 /usr/x86_64-w64-mingw32/include/_timeval.h:
-
-/root/projects/Atlas/Source/Utils/Scope.h:
 
 /usr/x86_64-w64-mingw32/include/apiset.h:
 

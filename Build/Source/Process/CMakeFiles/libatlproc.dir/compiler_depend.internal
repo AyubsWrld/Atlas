@@ -5,7 +5,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/ProcCommon.cpp.obj
  /root/projects/Atlas/Source/Process/Private/ProcCommon.cpp
  /root/projects/Atlas/Source/Process/Public/IProcess.h
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h
- /root/projects/Atlas/Source/Utils/Scope.h
+ /root/projects/Atlas/Source/Utils/Public/Scope.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h
@@ -477,7 +477,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/Win32Process.cpp.obj
  /root/projects/Atlas/Source/Process/Public/IProcess.h
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h
  /root/projects/Atlas/Source/Process/Public/Win32Process.h
- /root/projects/Atlas/Source/Utils/Scope.h
+ /root/projects/Atlas/Source/Utils/Public/Scope.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h
@@ -947,7 +947,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/Win32Process.cpp.obj
 Source/Process/CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj
  /root/projects/Atlas/Source/Process/Private/_iproc_min_impl.cpp
  /root/projects/Atlas/Source/Process/Public/IProcess.h
- /root/projects/Atlas/Source/Utils/Scope.h
+ /root/projects/Atlas/Source/Utils/Public/Scope.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h
@@ -1336,7 +1336,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj
  /root/projects/Atlas/Source/Process/Public/IProcess.h
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h
  /root/projects/Atlas/Source/Process/Public/Win32Process.h
- /root/projects/Atlas/Source/Utils/Scope.h
+ /root/projects/Atlas/Source/Utils/Public/Scope.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h

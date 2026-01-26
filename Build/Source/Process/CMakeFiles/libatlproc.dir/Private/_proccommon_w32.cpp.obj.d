@@ -1,6 +1,6 @@
 Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj: \
  /root/projects/Atlas/Source/Process/Private/_proccommon_w32.cpp \
- /root/projects/Atlas/Source/Utils/Scope.h \
+ /root/projects/Atlas/Source/Utils/Public/Scope.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdlib \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \

@@ -162,6 +162,19 @@ libatlproc/fast:
 	$(MAKE) $(MAKESILENT) -f Source/Process/CMakeFiles/libatlproc.dir/build.make Source/Process/CMakeFiles/libatlproc.dir/build
 .PHONY : libatlproc/fast
 
+#=============================================================================
+# Target rules for targets named libatllangproc
+
+# Build rule for target.
+libatllangproc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libatllangproc
+.PHONY : libatllangproc
+
+# fast build rule for target.
+libatllangproc/fast:
+	$(MAKE) $(MAKESILENT) -f Tools/Hive/LanguageProcessing/CMakeFiles/libatllangproc.dir/build.make Tools/Hive/LanguageProcessing/CMakeFiles/libatllangproc.dir/build
+.PHONY : libatllangproc/fast
+
 Source/Application/main.obj: Source/Application/main.cpp.obj
 .PHONY : Source/Application/main.obj
 
@@ -186,6 +199,30 @@ Source/Application/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Atlas.dir/build.make CMakeFiles/Atlas.dir/Source/Application/main.cpp.s
 .PHONY : Source/Application/main.cpp.s
 
+Tools/Hive/LanguageProcessing/Private/LanguageProcessing.obj: Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj
+.PHONY : Tools/Hive/LanguageProcessing/Private/LanguageProcessing.obj
+
+# target to build an object file
+Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Atlas.dir/build.make CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj
+.PHONY : Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj
+
+Tools/Hive/LanguageProcessing/Private/LanguageProcessing.i: Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i
+.PHONY : Tools/Hive/LanguageProcessing/Private/LanguageProcessing.i
+
+# target to preprocess a source file
+Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Atlas.dir/build.make CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i
+.PHONY : Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i
+
+Tools/Hive/LanguageProcessing/Private/LanguageProcessing.s: Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s
+.PHONY : Tools/Hive/LanguageProcessing/Private/LanguageProcessing.s
+
+# target to generate assembly for a file
+Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Atlas.dir/build.make CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s
+.PHONY : Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -196,11 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Atlas"
+	@echo "... libatllangproc"
 	@echo "... libatlpowmngr"
 	@echo "... libatlproc"
 	@echo "... Source/Application/main.obj"
 	@echo "... Source/Application/main.i"
 	@echo "... Source/Application/main.s"
+	@echo "... Tools/Hive/LanguageProcessing/Private/LanguageProcessing.obj"
+	@echo "... Tools/Hive/LanguageProcessing/Private/LanguageProcessing.i"
+	@echo "... Tools/Hive/LanguageProcessing/Private/LanguageProcessing.s"
 .PHONY : help
 
 

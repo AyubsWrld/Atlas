@@ -87,22 +87,40 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Atlas.dir/Source/Application/main.cpp.s"
 	/usr/sbin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/Atlas/Source/Application/main.cpp -o CMakeFiles/Atlas.dir/Source/Application/main.cpp.s
 
+CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj: CMakeFiles/Atlas.dir/flags.make
+CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj: CMakeFiles/Atlas.dir/includes_CXX.rsp
+CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj: /root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp
+CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj: CMakeFiles/Atlas.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/projects/Atlas/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj"
+	/usr/sbin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj -MF CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj.d -o CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj -c /root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp
+
+CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i"
+	/usr/sbin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp > CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.i
+
+CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s"
+	/usr/sbin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp -o CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.s
+
 # Object files for target Atlas
 Atlas_OBJECTS = \
-"CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj"
+"CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj" \
+"CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj"
 
 # External object files for target Atlas
 Atlas_EXTERNAL_OBJECTS =
 
 Atlas.exe: CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj
+Atlas.exe: CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj
 Atlas.exe: CMakeFiles/Atlas.dir/build.make
 Atlas.exe: Source/PowerManagement/liblibatlpowmngr.a
 Atlas.exe: Source/Process/liblibatlproc.a
+Atlas.exe: Tools/Hive/LanguageProcessing/liblibatllangproc.a
 Atlas.exe: /root/projects/Atlas/Tools/Z3/mingw64/lib/libz3.dll.a
 Atlas.exe: CMakeFiles/Atlas.dir/linkLibs.rsp
 Atlas.exe: CMakeFiles/Atlas.dir/objects1.rsp
 Atlas.exe: CMakeFiles/Atlas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/projects/Atlas/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Atlas.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/projects/Atlas/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Atlas.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Atlas.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying runtime DLLs to output directory"
 	/usr/sbin/cmake -E copy_if_different /root/projects/Atlas/Tools/Z3/mingw64/bin/libz3.dll /root/projects/Atlas/Build

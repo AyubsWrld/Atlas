@@ -7,3 +7,6 @@
 /root/projects/Atlas/Build/Source/Process/CMakeFiles/libatlproc.dir
 /root/projects/Atlas/Build/Source/Process/CMakeFiles/edit_cache.dir
 /root/projects/Atlas/Build/Source/Process/CMakeFiles/rebuild_cache.dir
+/root/projects/Atlas/Build/Tools/Hive/LanguageProcessing/CMakeFiles/libatllangproc.dir
+/root/projects/Atlas/Build/Tools/Hive/LanguageProcessing/CMakeFiles/edit_cache.dir
+/root/projects/Atlas/Build/Tools/Hive/LanguageProcessing/CMakeFiles/rebuild_cache.dir

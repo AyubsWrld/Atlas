@@ -184,7 +184,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/istream.tcc \
  /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
  /root/projects/Atlas/Source/Process/Public/IProcess.h \
- /root/projects/Atlas/Source/Utils/Scope.h \
+ /root/projects/Atlas/Source/Utils/Public/Scope.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/utility \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/functional \
@@ -497,6 +497,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/glue_memory_defs.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/execution_defs.h \
  /root/projects/Atlas/Source/Process/Public/Win32Process.h \
+ /root/projects/Atlas/Tools/Hive/LanguageProcessing/Public/LanguageProcessing.h \
  /usr/x86_64-w64-mingw32/include/z3++.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cassert \
  /usr/x86_64-w64-mingw32/include/assert.h \

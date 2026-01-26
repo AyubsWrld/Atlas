@@ -24,7 +24,7 @@ Source/Process/CMakeFiles/libatlproc.dir/Private/_iproc_min_impl.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/stdint.h \
  /usr/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  /usr/x86_64-w64-mingw32/include/stddef.h \
- /root/projects/Atlas/Source/Utils/Scope.h \
+ /root/projects/Atlas/Source/Utils/Public/Scope.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/cstdlib \
  /usr/x86_64-w64-mingw32/include/stdlib.h \
  /usr/x86_64-w64-mingw32/include/corecrt_wstdlib.h \

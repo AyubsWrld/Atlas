@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "Atlas.pdb"
   "CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj"
   "CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj.d"
+  "CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj"
+  "CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj.d"
   "libAtlas.dll.a"
 )
 

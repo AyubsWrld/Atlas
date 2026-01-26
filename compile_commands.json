@@ -6,6 +6,12 @@
   "output": "CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj"
 },
 {
+  "directory": "/root/projects/Atlas/Build",
+  "command": "/usr/sbin/x86_64-w64-mingw32-g++  @CMakeFiles/Atlas.dir/includes_CXX.rsp -static -std=c++23 -o CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj -c /root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp",
+  "file": "/root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp",
+  "output": "CMakeFiles/Atlas.dir/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp.obj"
+},
+{
   "directory": "/root/projects/Atlas/Build/Source/PowerManagement",
   "command": "/usr/sbin/x86_64-w64-mingw32-g++  @CMakeFiles/libatlpowmngr.dir/includes_CXX.rsp -static -std=c++23 -o CMakeFiles/libatlpowmngr.dir/Private/PowerManager.cpp.obj -c /root/projects/Atlas/Source/PowerManagement/Private/PowerManager.cpp",
   "file": "/root/projects/Atlas/Source/PowerManagement/Private/PowerManager.cpp",
@@ -46,5 +52,11 @@
   "command": "/usr/sbin/x86_64-w64-mingw32-g++  @CMakeFiles/libatlproc.dir/includes_CXX.rsp -static -std=c++23 -o CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj -c /root/projects/Atlas/Source/Process/Private/_proccommon_w32.cpp",
   "file": "/root/projects/Atlas/Source/Process/Private/_proccommon_w32.cpp",
   "output": "Source/Process/CMakeFiles/libatlproc.dir/Private/_proccommon_w32.cpp.obj"
+},
+{
+  "directory": "/root/projects/Atlas/Build/Tools/Hive/LanguageProcessing",
+  "command": "/usr/sbin/x86_64-w64-mingw32-g++  @CMakeFiles/libatllangproc.dir/includes_CXX.rsp -static -std=c++23 -o CMakeFiles/libatllangproc.dir/Private/LanguageProcessing.cpp.obj -c /root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp",
+  "file": "/root/projects/Atlas/Tools/Hive/LanguageProcessing/Private/LanguageProcessing.cpp",
+  "output": "Tools/Hive/LanguageProcessing/CMakeFiles/libatllangproc.dir/Private/LanguageProcessing.cpp.obj"
 }
 ]

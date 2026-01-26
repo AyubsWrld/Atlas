@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "ProcCommon.h"
 #include "Win32Process.h"
+#include "LanguageProcessing.h"
 #include "z3++.h"
 
 
@@ -39,5 +40,7 @@ int main()
         ::wprintf(L"Successfully spawned process: 0x%x\n", GetLastError());
     }
     int x; std::cin >> x; 
+
+    Atlas::LanguageProcessing::ParseValues();
     return EXIT_SUCCESS;
 }

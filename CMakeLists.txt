@@ -8,18 +8,20 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(Source/PowerManagement)
 add_subdirectory(Source/Process)
+add_subdirectory(Tools/Hive/LanguageProcessing)
 
 add_executable(Atlas Source/Application/main.cpp)
 
 target_include_directories(Atlas
     PRIVATE
-    ${CMAKE_SOURCE_DIR}/Source/Utils
+    ${CMAKE_SOURCE_DIR}/Source/Utils/Public
 )
 
 target_link_libraries(Atlas
     PRIVATE
         libatlpowmngr
         libatlproc
+        libatllangproc
 )
 
 

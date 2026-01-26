@@ -7,14 +7,15 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/4.2.1/CMakeCCompiler.cmake"
-  "CMakeFiles/4.2.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.2.1/CMakeRCCompiler.cmake"
-  "CMakeFiles/4.2.1/CMakeSystem.cmake"
+  "CMakeFiles/4.2.2/CMakeCCompiler.cmake"
+  "CMakeFiles/4.2.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.2.2/CMakeRCCompiler.cmake"
+  "CMakeFiles/4.2.2/CMakeSystem.cmake"
   "/root/projects/Atlas/CMake/Toolchains/x86_64-w64-mingw.cmake"
   "/root/projects/Atlas/CMakeLists.txt"
   "/root/projects/Atlas/Source/PowerManagement/CMakeLists.txt"
   "/root/projects/Atlas/Source/Process/CMakeLists.txt"
+  "/root/projects/Atlas/Tools/Hive/LanguageProcessing/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -60,6 +61,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Source/PowerManagement/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Source/Process/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Tools/Hive/LanguageProcessing/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -67,4 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Atlas.dir/DependInfo.cmake"
   "Source/PowerManagement/CMakeFiles/libatlpowmngr.dir/DependInfo.cmake"
   "Source/Process/CMakeFiles/libatlproc.dir/DependInfo.cmake"
+  "Tools/Hive/LanguageProcessing/CMakeFiles/libatllangproc.dir/DependInfo.cmake"
   )
