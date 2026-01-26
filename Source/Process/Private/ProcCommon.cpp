@@ -1,5 +1,13 @@
 #include "ProcCommon.h"
 
+namespace Atlas 
+{
+    FProcessDetails GetProcessDetails()
+    {
+        return  FProcessDetails{};
+    }
+}
+
 namespace Atlas::System::Process 
 {
     STARTUPINFO CreateStartupInfo()

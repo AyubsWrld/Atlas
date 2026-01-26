@@ -2,6 +2,21 @@
 #include "IProcess.h"
 #include <processthreadsapi.h>
 #include <memory>
+#include <unordered_map>
+
+
+namespace Atlas 
+{
+    // NOTE:  This is a bit of minsomer for just LocalizedProcessName:Path Strictly
+    // This should map devices -> FProcessImage. just use predicate for finding for now. 
+    struct FProcessDetails
+    {
+        WCHAR*  Name    { NULL };
+        WCHAR*  Path    { NULL };
+    };
+
+    FProcessDetails GetProcessDetails(); 
+}
 
 
 namespace Atlas::System::Process 
