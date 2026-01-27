@@ -4,3 +4,4 @@ Build/
 .MTREE
 .PKGINFO
 depen.txt
+.BUILDINFO
