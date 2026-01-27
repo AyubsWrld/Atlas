@@ -1,10 +1,12 @@
 #pragma once
 #include <ctime>
 #include <cstdint>
+#include <vector>
 #include "Scope.h"
 
 #if defined(_WIN32)
     #include <windows.h>
+    #include <winreg.h>
     #include <tchar.h>
     #include <psapi.h>
     #include <winnt.h>

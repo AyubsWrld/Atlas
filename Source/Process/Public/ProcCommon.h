@@ -2,7 +2,7 @@
 #include "IProcess.h"
 #include <processthreadsapi.h>
 #include <memory>
-#include <unordered_map>
+#include <string>
 
 
 namespace Atlas 
@@ -14,8 +14,27 @@ namespace Atlas
         WCHAR*  Name    { NULL };
         WCHAR*  Path    { NULL };
     };
+     enum class EBitMode 
+    {
+        Unknown,
+        x64,
+        x32
+    };
 
-    FProcessDetails GetProcessDetails(); 
+    struct Software
+    {
+        std::wstring DisplayName;
+        std::wstring InstallLocation;
+        EBitMode Architecture;
+
+        Software(std::wstring name, std::wstring location, EBitMode arch)
+            : DisplayName(name), InstallLocation(location), Architecture(arch) {}
+    };
+
+    struct InstalledPrograms
+    {
+        static std::vector<Software> GetInstalledPrograms();
+    };
 }
 
 

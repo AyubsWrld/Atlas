@@ -38,6 +38,7 @@ namespace Atlas::System::Process
     
     bool Win32Process::TerminateProcess() 
     { 
+        printf("[%s]\n", __PRETTY_FUNCTION__);
         if (Attributes->Handle == NULL || Attributes->Handle == INVALID_HANDLE_VALUE) 
         {
             return false; 
@@ -56,15 +57,12 @@ namespace Atlas::System::Process
             ::wprintf(L"Trying to open new handle with PROCESS_ALL_ACCESS...\n");
             return false; 
         }
-
         return false; 
     }
     
     Win32Process::~Win32Process() 
     {
         TerminateProcess();
-        printf("[%s]\n", __PRETTY_FUNCTION__);
-        
         if (Attributes->Handle && Attributes->Handle != INVALID_HANDLE_VALUE)
         {
             ::CloseHandle(Attributes->Handle);

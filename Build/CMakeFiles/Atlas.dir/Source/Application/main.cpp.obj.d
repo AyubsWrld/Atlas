@@ -182,8 +182,31 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ostream.tcc \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/istream \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/istream.tcc \
- /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/memory \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/align.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unique_ptr.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr_base.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/allocated_ptr.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/aligned_buffer.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/concurrence.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr_atomic.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_base.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_wait.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_mutex.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/backward/auto_ptr.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_uninitialized.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/out_ptr.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/glue_memory_defs.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/execution_defs.h \
  /root/projects/Atlas/Source/Process/Public/IProcess.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_bvector.h \
+ /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/vector.tcc \
  /root/projects/Atlas/Source/Utils/Public/Scope.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/utility \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_relops.h \
@@ -193,14 +216,8 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unordered_map.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/hashtable_policy.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/aligned_buffer.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/node_handle.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/erase_if.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/vector \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_uninitialized.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_vector.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_bvector.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/vector.tcc \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/move_only_function.h \
  /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/mofunc_impl.h \
  /usr/x86_64-w64-mingw32/include/windows.h \
@@ -478,24 +495,7 @@ CMakeFiles/Atlas.dir/Source/Application/main.cpp.obj: \
  /usr/x86_64-w64-mingw32/include/shtypes.h \
  /usr/x86_64-w64-mingw32/include/aclapi.h \
  /usr/x86_64-w64-mingw32/include/accctrl.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/memory \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/align.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/unique_ptr.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr_base.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/allocated_ptr.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/ext/concurrence.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/shared_ptr_atomic.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_base.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/atomic_wait.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/std_mutex.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/backward/auto_ptr.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/ranges_uninitialized.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/bits/out_ptr.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/glue_memory_defs.h \
- /usr/x86_64-w64-mingw32/include/c++/15.2.0/pstl/execution_defs.h \
+ /root/projects/Atlas/Source/Process/Public/ProcCommon.h \
  /root/projects/Atlas/Source/Process/Public/Win32Process.h \
  /root/projects/Atlas/Tools/Hive/LanguageProcessing/Public/LanguageProcessing.h \
  /usr/x86_64-w64-mingw32/include/z3++.h \

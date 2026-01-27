@@ -1,5 +1,7 @@
 #include <iostream>
+#include <memory>
 #include <stdio.h>
+#include "IProcess.h"
 #include "ProcCommon.h"
 #include "Win32Process.h"
 #include "LanguageProcessing.h"
@@ -25,22 +27,84 @@ void demorgan() {
     }
 }
 
+
+void TestEnumerateW32()
+{
+    using namespace Atlas;
+    std::wcout << L"Enumerating Installed Programs..." << std::endl;
+    std::wcout << L"=================================" << std::endl << std::endl;
+
+    std::vector<Software> programs = InstalledPrograms::GetInstalledPrograms();
+
+    std::wcout << L"Found " << programs.size() << L" programs:" << std::endl << std::endl;
+
+    bool bHasSpawned { FALSE } ;
+
+    for (size_t i = 0; i < programs.size(); i++)
+    {
+        const Software& sw = programs[i];
+       
+        std::wcout << L"[" << (i + 1) << L"] " << sw.DisplayName << std::endl;
+        
+        if (!sw.InstallLocation.empty())
+        {
+            // std::wstring FullPath = sw.InstallLocation + L"\\" + sw.DisplayName + L".exe";
+            // std::wcout << L"    Location: " << FullPath << std::endl;
+            std::wcout << L"    Location: " << sw.InstallLocation << std::endl;
+        }
+        
+        std::wcout << L"    Arch: ";
+        switch (sw.Architecture)
+        {
+            case EBitMode::x64:
+                std::wcout << L"64-bit";
+                break;
+            case EBitMode::x32:
+                std::wcout << L"32-bit";
+                break;
+            default:
+                std::wcout << L"Unknown";
+                break;
+        }
+
+        std::wcout << std::endl << std::endl;
+
+        // always append '\'  if bitmode == 32bit
+        if (!bHasSpawned 
+                && sw.Architecture == EBitMode::x64 
+                && !sw.InstallLocation.empty() 
+                && !sw.InstallLocation.contains(L"(x86)"))
+        {
+
+            std::string Location { 
+                sw.DisplayName.begin(),
+                sw.DisplayName.end() 
+            };
+
+            if ( auto Proc = System::Process::SpawnProcess(Location.c_str())) 
+            {
+                std::cout << Location << "\n" << std::endl; 
+                int x; std::cin >> x; 
+            };
+        }
+    }
+}
+
 int main()
 {
     using namespace Atlas::System::Process;
-    sscanf(NULL, NULL);
     
     // Unneeded as what was constructed was a Win32Process
     // std::shared_ptr<Win32Process> Process = std::dynamic_pointer_cast<Win32Process>(SpawnProcess( "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" )); 
     
     // std::shared_ptr<IProcess> Process = SpawnProcess( "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" ); 
-    std::shared_ptr<IProcess> Process = SpawnProcess("C:\\Program Files\\PureRef\\PureRef.exe"); 
-    if ( Process )
-    {
-        ::wprintf(L"Successfully spawned process: 0x%x\n", GetLastError());
-    }
-    int x; std::cin >> x; 
-
-    Atlas::LanguageProcessing::ParseValues();
+    // std::shared_ptr<IProcess> Process = SpawnProcess("C:\\Program Files\\PureRef\\PureRef.exe"); 
+    // if ( Process )
+    // {
+    //     ::wprintf(L"Successfully spawned process: 0x%x\n", GetLastError());
+    // }
+    // int x; std::cin >> x; 
+    
+    TestEnumerateW32(); 
     return EXIT_SUCCESS;
 }
